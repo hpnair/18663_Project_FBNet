@@ -12,6 +12,8 @@ build/
 develop-eggs/
 dist/
 downloads/
+fbnet-pytorch/data/
+*.gz
 eggs/
 .eggs/
 lib/
