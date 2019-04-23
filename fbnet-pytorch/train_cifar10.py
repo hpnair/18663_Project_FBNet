@@ -29,7 +29,7 @@ class Config(object):
   t_beta = (0.9, 0.999)
   init_temperature = 5.0
   temperature_decay = 0.956
-  model_save_path = './models'
+  model_save_path = './term_output'
   total_epoch = 90
   start_w_epoch = 1
   train_portion = 0.8
@@ -72,7 +72,7 @@ parser.add_argument('--latency-file', type=str, default='speed.txt', help = 'tar
 args = parser.parse_args()
 
 args.model_save_path = '%s/%s/' % \
-            (config.model_save_path, time.strftime('%Y-%m-%d', time.localtime(time.time())))
+            (config.model_save_path, args.tb_log)
 
 if not os.path.exists(args.model_save_path):
   _logger.warn("{} not exists, create it".format(args.model_save_path))
