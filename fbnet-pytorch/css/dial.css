@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+}
+
+.plot svg {
+    background: #ccc;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+svg .valueArc {
+    fill: #42ff00e6;
+    fill-opacity: 0.5
+}
+
+svg .changeArc {
+    fill: #28a745ad;
+    fill-opacity: 0.2
+}
+
+svg .interactArc {
+    fill: #28a745ad;
+    fill-opacity: 0.5;
+}
+
+svg .text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  fill: #28a745ad ;
+}
