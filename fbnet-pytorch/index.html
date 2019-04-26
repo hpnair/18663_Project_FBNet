@@ -1,0 +1,281 @@
+<html lang="en" ng-app="mainApp">
+<head>
+	<title>Neural Architecture Search using FBNets</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/dial.css" type="text/css">
+<!--===============================================================================================-->
+	
+    
+</head>
+<body>
+
+
+	<div class="container-contact100" style="background-image: url('images/website_wallpaper.jpg');">
+		<div class="wrap-contact100">
+			<form class="contact100-form">
+				<span class="contact100-form-title">
+					HARDWARE AWARE NEURAL NETWORK ARCHITECTURE
+				</span>
+				<span class="contact100-form-title"> PROJECT HANNA </span>
+
+				<div ng-controller="dialCtrlAlpha">
+					<span class="custom-label-input100">A:{{scaledAlpha}}</span>
+					<gmd-dial value="initialAlpha" innerrad></gmd-dial>
+				</div>
+
+				<div ng-controller="dialCtrlBeta">
+					<span class="custom-label-input100">B:{{scaledBeta}}</span>
+					<gmd-dial value="initialBeta"></gmd-dial>
+				</div>
+
+				<div ng-controller="dialCtrlGamma">
+					<span class="custom-label-input100">G:{{scaledGamma}}</span>
+					<gmd-dial value="initialGamma" innerrad></gmd-dial>
+				</div>
+
+				<div ng-controller="dialCtrlDelta">
+					<span class="custom-label-input100">D:{{scaledDelta}}</span>
+					<gmd-dial value="initialDelta"></gmd-dial>
+				</div>
+					 <div ng-controller-"targetCtrl"  class="wrap-input100 rs1-wrap-input100">
+						<span class="label-input100">Target Device</span>
+						<input class="input100" type="text" name="name" placeholder="Raspberry Pi" ng-model="td">
+					</div>
+
+					<div ng-controller="latFile" class="wrap-input100 rs1-wrap-input100">
+						<span class="label-input100">Latency File</span>
+						<input class="input100" type="text" name="name" placeholder="rpi_speed.txt" ng-model="lat">
+					</div>
+
+					<div ng-controller="enerFile" class="wrap-input100 rs1-wrap-input100">
+						<span class="label-input100">Energy File</span>
+						<input class="input100" type="text" name="name" placeholder="rpi_energy.txt" ng-model="ener">
+					</div>
+					<div ng-controller="modelFile" class="wrap-input100 rs1-wrap-input100">
+						<span class="label-input100">Model name</span>
+						<input class="input100" type="text" name="name" placeholder="Test Model 1" ng-model="model">
+					</div>
+				
+         	
+					<div ng-controller="submitButton" class="container-contact100-form-btn">
+						<div class="wrap-contact100-form-btn">
+							<div class="contact100-form-bgbtn"></div>
+							<button class="contact100-form-btn" ng-click="submit()">
+								{{submitText}}
+							</button>
+						
+					</div>		
+					</div>
+				
+
+					<!--<div ng-controller= "statusButton" class="container-contact100-form-btn">
+						<div class="wrap-contact100-form-btn">
+							<div class="contact100-form-bgbtn"></div>
+							<button class="contact100-form-btn" ng-click="submit()">
+								Status
+							</button>
+					</div>-->
+
+			</form>
+		</div>
+
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    
+    <script type="text/javascript" src="bower_components/d3/d3.min.js"></script>      
+	<script src="js/main.js"></script>
+	<script src="js/dial.js"></script>
+
+	<script>
+
+      var app = angular.module('mainApp', ['gmd.dial']);
+			var defaultString="python train_cifar10.py --epochs 80 --log-frequence 100 --warmup 10";
+			var alphaString,betaString,gammaString,deltaString,latFile,enerFile, modelName;
+			// var cmd= require('./node-modules/node-cmd/cmd.js');
+			alphaString=betaString=gammaString=deltaString=latFile=enerFile=modelName="";
+
+	app.controller('targetCtrl', function($scope){
+
+	$scope.value = "RaspberryPi";
+
+
+});
+      app.controller('dialCtrlAlpha', function($scope) {
+
+        $scope.initialAlpha= 80;
+				$scope.$watch('initialAlpha',function(newValue, oldValue){
+					$scope.scaledAlpha = $scope.initialAlpha/20;
+					console.log("Alpha: " + $scope.scaledAlpha);
+					alphaString = " --alpha " + $scope.scaledAlpha.toString(10);
+				});
+
+      });
+	  app.controller('dialCtrlBeta', function($scope) {
+
+        $scope.initialBeta = 20;
+				$scope.$watch('initialBeta',function(newValue,oldValue){
+					$scope.scaledBeta = $scope.initialBeta/20;
+					console.log("Beta: " + $scope.scaledBeta);
+					betaString = " --beta " + $scope.scaledBeta.toString(10);
+				});
+
+      });
+      app.controller('dialCtrlGamma', function($scope) {
+
+        $scope.initialGamma = 80;
+				$scope.$watch('initialGamma',function(newValue,oldValue){
+					$scope.scaledGamma = $scope.initialGamma/20;
+					console.log("Gamma: " + $scope.scaledGamma);
+					gammaString = " --gamma " + $scope.scaledGamma.toString(10);
+				});
+
+      });
+	  app.controller('dialCtrlDelta', function($scope) {
+
+        $scope.initialDelta = 20;
+				$scope.$watch('initialDelta',function(newValue,oldValue){
+					$scope.scaledDelta = $scope.initialDelta/20;
+					console.log("Delta: " + $scope.scaledDelta);
+					deltaString = " --delta " + $scope.scaledDelta.toString(10);
+				});
+
+      });
+	
+	app.controller('targetCtrl', function($scope){
+
+	    $scope.td = "Raspberry Pi";
+
+
+});
+
+		app.controller('latFile', function($scope){
+				$scope.lat = "speed.txt";
+				$scope.$watch('lat',function(newValue,oldValue){
+					 $scope.latFile = $scope.lat;
+					 console.log("Latency file: " + $scope.latFile);
+					 
+					 latFile = " --latency-file " + $scope.latFile;
+				});
+
+		});
+
+		app.controller('enerFile',function($scope){
+				$scope.ener = "new_rpi_energy.txt";
+				$scope.$watch('ener',function(newValue,oldValue){
+						$scope.enerFile = $scope.ener;
+						console.log("Energy file: " + $scope.enerFile);
+						enerFile = " --energy-file " + $scope.enerFile;
+				});
+		});
+
+		app.controller('modelFile', function($scope){
+			  $scope.model = "model1";
+				$scope.$watch('model',function(newValue,oldValue){
+					$scope.modelFile = $scope.model;
+					console.log("Model File: " + $scope.modelFile);
+					modelName = " --tb-log " + $scope.modelFile;
+				});
+		});
+
+		app.controller('submitButton',function($scope, $http,$rootScope){
+					$scope.submitText = "Submit model for training"
+					$scope.submit = function(){
+						$scope.submitText = "Model sent for training successfully";
+						var submitString = defaultString + alphaString + betaString + deltaString + gammaString + latFile + enerFile + modelName;
+						console.log("Submit String:  " + submitString);
+						var newData = {submit_string : submitString};
+						$http.post('/', JSON.stringify(newData)).then(function(response){
+							if(response)
+							{
+								console.log("Post sent successfully");
+							}
+							else
+							{
+								console.log("Try again buddy");
+							}
+						});
+						
+					}
+		});
+
+
+		app.controller('statusButton', function($scope, $http){
+
+			console.log('Hello');
+				$http.put('/').then(function(response,err){
+
+						if(response.data)
+						{
+							console.log(response.data);
+							$scope.value = response.data;
+						}
+						if(err)
+						{
+					
+							console.log(err);
+						}
+						
+
+
+
+				});
+
+				
+				
+
+
+		});
+
+
+		
+    </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script> -->
+
+
+</body>
+</html>
+
+
+
+

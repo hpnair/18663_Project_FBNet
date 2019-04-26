@@ -7,7 +7,7 @@ var path = require('path');
 const port = 8080;
 
 var app = express();
-
+var update = "";
 
 
 app.use(bodyParser.json());
@@ -25,13 +25,36 @@ app.post('/', (req, res)=>{
   var submit = req.body.submit_string;
   var splitString = submit.split(" ");
 
-spawn(splitString[0],splitString.slice(1,22), { stdio: 'inherit' });
+//spawn(splitString[0],splitString.slice(1,22), { stdio: 'inherit' });
+const run = spawn(splitString[0],splitString.slice(1,22));
+
+run.stdout.on('data',(data) => {
+
+console.log(`${data}`);
+update = data;
+
+});
+
+});
+
+app.put('/',(req,res)=>{
+
+//console.log(update);
+res.send(update);
 
 });
 
 app.listen(port , ()=> {
     console.log(`Backend server is listening at port ${port}`);
 });
+
+
+
+
+
+
+
+
 
 
 
