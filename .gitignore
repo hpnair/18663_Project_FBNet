@@ -12,7 +12,13 @@ build/
 develop-eggs/
 dist/
 downloads/
-fbnet-pytorch/data/
+./fbnet-pytorch/data/
+./fbnet-pytorch/theta-result/
+./fbnet-pytorch/logs/
+./fbnet-pytorch/models/
+./fbnet-pytorch/bower-components/
+./fbnet-pytorch/node-modules/
+./fbnet-pytorch/vendor/
 *.gz
 eggs/
 .eggs/

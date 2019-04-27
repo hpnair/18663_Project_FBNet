@@ -179,8 +179,8 @@ iframe {
   display: block;
   width: 100%;
   font-family: Raleway-Black;
-  font-size: 30px;
-  color: #ffc107c9;
+  font-size: 24px;
+  color: #40ff079c;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
@@ -221,7 +221,7 @@ iframe {
 .input100 {
   display: block;
   width: 100%;
-  background: #f2f2f2;
+  background: #00c51382;
   border-radius: 2px;
 
   font-family: Raleway-SemiBold;
@@ -426,4 +426,9 @@ textarea.input100 {
 
 
 
+.status-update{
 
+horizontal-align : center;
+
+
+}

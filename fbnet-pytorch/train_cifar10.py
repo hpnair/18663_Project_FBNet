@@ -89,7 +89,7 @@ train_transform = transforms.Compose([
     transforms.Normalize(CIFAR_MEAN, CIFAR_STD),
   ])
 train_data = dset.CIFAR10(root='./data', train=True, 
-                download=True, transform=train_transform)
+                download=False, transform=train_transform)
 
 num_train = len(train_data)
 indices = list(range(num_train))
