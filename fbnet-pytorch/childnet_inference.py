@@ -11,7 +11,7 @@ import torchvision.transforms as transforms
 import os
 
 parser = argparse.ArgumentParser(description="Train a child net using a theta file.")
-parser.add_argument('--theta_f', type=str, default='_theta_epoch_89.txt',
+parser.add_argument('--theta-folder', type=str, default='theta-folder',
                     help='theta file for selcting blocks for childnet.'
                     )
 args = parser.parse_args()
@@ -117,7 +117,7 @@ class FBNetBlock(nn.Module):
 
 class ChildNet(nn.Module):
     
-    def __init__(self, theta_f='_theta_epoch_91.txt'):
+    def __init__(self, theta_f='../test_folder/' + '_theta_epoch_91.txt'):
         super(ChildNet, self).__init__()
         with open(theta_f) as f:
             block_nos = []
@@ -164,10 +164,8 @@ class ChildNet(nn.Module):
         child_layers  = []
         for block in block_list:
             if isinstance(block, nn.Module):
-                print('True')
                 child_layers.append(block)
-            else:
-                print('False')
+            
 
         self.arch = nn.Sequential(*child_layers)
 
@@ -191,7 +189,7 @@ class ChildNet(nn.Module):
 
 
 print('==> Building model..')
-net = ChildNet(theta_f=args.theta_f)
+net = ChildNet(args.theta_folder +'/random_model1_epoch_89.txt')
 
 
 net = net.to(device)
@@ -203,13 +201,10 @@ if device == 'cuda':
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(net.parameters(), lr=0.01, momentum=0.9, weight_decay=4e-5)
 
-
-def test(epoch):
+def test(epoch,model_num):
     global best_acc
     net.eval()
-    test_loss = 0
-    correct = 0
-    total = 0
+    average_time = 0
     with torch.no_grad():
 
         for batch_idx, (inputs, targets) in enumerate(testloader):
@@ -221,11 +216,17 @@ def test(epoch):
                 start_time = time.time()
                 outputs = net(inputs)
                 end_time = time.time()
-                
+                average_time += (end_time-start_time)
                 print('Inference took: ', (end_time-start_time), 's')
                 time.sleep(5)
-                
-            
+        average_time /= batch_idx
 
-for epoch in range(0,1):
-    test(epoch)
+        print('Average Inference time for Model: ', model_num , 'is: ', average_time ,'s')
+
+
+for i in range(0,4):
+    theta_f =  args.theta_folder + '/random_model'+str(i+1)+'_epoch_89.txt'
+    print(theta_f)
+    net = ChildNet(theta_f)
+    test(1,(i+1))
+
