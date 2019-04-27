@@ -189,7 +189,7 @@ class ChildNet(nn.Module):
 
 
 print('==> Building model..')
-net = ChildNet(args.theta_folder +'/random_model1_epoch_89.txt')
+net = ChildNet(args.theta_folder +'/model1_epoch_89.txt')
 
 
 net = net.to(device)
@@ -216,6 +216,8 @@ def test(epoch,model_num):
                 start_time = time.time()
                 outputs = net(inputs)
                 end_time = time.time()
+                print('Write average current: ')
+                time.sleep(8)
                 average_time += (end_time-start_time)
                 print('Inference took: ', (end_time-start_time), 's')
                 time.sleep(5)
@@ -225,7 +227,7 @@ def test(epoch,model_num):
 
 
 for i in range(0,4):
-    theta_f =  args.theta_folder + '/random_model'+str(i+1)+'_epoch_89.txt'
+    theta_f =  args.theta_folder + '/model'+str(i+1)+'_epoch_89.txt'
     print(theta_f)
     net = ChildNet(theta_f)
     test(1,(i+1))
