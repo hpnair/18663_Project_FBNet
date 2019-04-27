@@ -4,17 +4,17 @@ import torch.optim as optim
 import torch.nn.functional as F
 import torch.backends.cudnn as cudnn
 import argparse
-import time
+
 import torchvision
 import torchvision.transforms as transforms
 
 import os
 
 parser = argparse.ArgumentParser(description="Train a child net using a theta file.")
-parser.add_argument('--theta-folder', type=str, default='theta-folder',
-                    help='theta file for selcting blocks for childnet.'
-                    )
+parser.add_argument('--theta_f', type=str, default='_theta_epoch_89.txt',
+                    help='theta file for selcting blocks for childnet.')
 args = parser.parse_args()
+
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 best_acc = 0  # best test accuracy
 start_epoch = 0  # start from epoch 0 or last checkpoint epoch
@@ -38,7 +38,10 @@ trainset = torchvision.datasets.CIFAR10(root='./data', train=True, download=True
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=256, shuffle=True, num_workers=2)
 
 testset = torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform_test)
-testloader = torch.utils.data.DataLoader(testset, batch_size=1, shuffle=False, num_workers=2)
+testloader = torch.utils.data.DataLoader(testset, batch_size=100, shuffle=False, num_workers=2)
+
+
+classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
 
 class ChannelShuffle(nn.Module):
@@ -117,8 +120,9 @@ class FBNetBlock(nn.Module):
 
 class ChildNet(nn.Module):
     
-    def __init__(self, theta_f='../test_folder/' + '_theta_epoch_91.txt'):
+    def __init__(self, theta_f='_theta_epoch_91.txt'):
         super(ChildNet, self).__init__()
+        
         with open(theta_f) as f:
             block_nos = []
             for layer,line in enumerate(f):
@@ -144,12 +148,12 @@ class ChildNet(nn.Module):
         
         in_ch = 16
         count = 0
-        for i in range(0,len(n)):
+        for i in range(len(n)):
             stride_p = stride[i]
-            for j in range(0,n[i]):
+            for j in range(n[i]):
                 k = block_nos[count]
                 if k==8:
-                    block_list.append(IdentityBlock())
+                    block_list.append(IdentityBlock)
                 else:
                     block_list.append(FBNetBlock(C_in=in_ch, C_out=out_ch[i], 
                                                  kernel_size=kernel[k], stride=stride_p, 
@@ -161,14 +165,15 @@ class ChildNet(nn.Module):
         block_list.append(nn.Conv2d(in_channels=352, out_channels=1984, kernel_size=1, stride=1))
         
         #print(block_list)
-        child_layers  = []
-        for block in block_list:
-            if isinstance(block, nn.Module):
-                child_layers.append(block)
-            
-
-        self.arch = nn.Sequential(*child_layers)
-
+        tmp = []
+        for b in block_list:
+            if isinstance(b, nn.Module):
+                print("True")
+                tmp.append(b)
+            else:
+                print("False")
+            self.arch = nn.Sequential(*tmp)
+        
         self.dropout = nn.Dropout(p=0.4, inplace=False)
         
         self.avgpool = nn.AvgPool2d(kernel_size=8, stride=1)
@@ -178,8 +183,9 @@ class ChildNet(nn.Module):
 
         
     def forward(self, x):
-         
+        
         x = self.arch(x)
+        
         x = self.dropout(x)
         x = self.avgpool(x)
         x = x.reshape(x.shape[0], -1)
@@ -189,7 +195,7 @@ class ChildNet(nn.Module):
 
 
 print('==> Building model..')
-net = ChildNet(args.theta_folder +'/random_model1_epoch_89.txt')
+net = ChildNet(theta_f=args.theta_f)
 
 
 net = net.to(device)
@@ -201,32 +207,51 @@ if device == 'cuda':
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(net.parameters(), lr=0.01, momentum=0.9, weight_decay=4e-5)
 
-def test(epoch,model_num):
+
+def train(epoch):
+    print('\nEpoch: %d' % epoch)
+    net.train()
+    train_loss = 0
+    correct = 0
+    total = 0
+    for batch_idx, (inputs, targets) in enumerate(trainloader):
+        inputs, targets = inputs.to(device), targets.to(device)
+        optimizer.zero_grad()
+        outputs = net(inputs)
+
+        loss = criterion(outputs, targets)
+        loss.backward()
+        optimizer.step()
+
+        train_loss += loss.item()
+        _, predicted = outputs.max(1)
+        total += targets.size(0)
+        correct += predicted.eq(targets).sum().item()
+        
+        print('Batch: {}, Loss: {}, Acc: {}'.format(batch_idx, (train_loss/(batch_idx+1)), 100 * correct/total))
+
+
+def test(epoch):
     global best_acc
     net.eval()
-    average_time = 0
+    test_loss = 0
+    correct = 0
+    total = 0
     with torch.no_grad():
-
         for batch_idx, (inputs, targets) in enumerate(testloader):
-            if (batch_idx < 10):
+            inputs, targets = inputs.to(device), targets.to(device)
+            outputs = net(inputs)
+            loss = criterion(outputs, targets)
 
-                inputs, targets = inputs.to(device), targets.to(device)
-                print('Starting inference: ')
-                time.sleep(5)
-                start_time = time.time()
-                outputs = net(inputs)
-                end_time = time.time()
-                average_time += (end_time-start_time)
-                print('Inference took: ', (end_time-start_time), 's')
-                time.sleep(5)
-        average_time /= batch_idx
+            test_loss += loss.item()
+            _, predicted = outputs.max(1)
+            total += targets.size(0)
+            print(total)
+            correct += predicted.eq(targets).sum().item()
+            print(correct)
+            print('Batch: {}, Loss: {}, Acc: {}'.format(batch_idx, (test_loss/(batch_idx+1)), 100 * correct/total))
+            
 
-        print('Average Inference time for Model: ', model_num , 'is: ', average_time ,'s')
-
-
-for i in range(0,4):
-    theta_f =  args.theta_folder + '/random_model'+str(i+1)+'_epoch_89.txt'
-    print(theta_f)
-    net = ChildNet(theta_f)
-    test(1,(i+1))
-
+for epoch in range(start_epoch, start_epoch+90):
+    train(epoch)
+    test(epoch)
