@@ -1,0 +1,470 @@
+[33mIP:142 [0m[32m[0422 21:47:26 @model.py:312][0m Start to train w for epoch 0
+[33mIP:142 [0m[32m[0422 21:48:24 @model.py:297][0m Epoch[0] Batch[100] Speed: 442.653683 samples/sec loss: 6.01189 acc: 0.14411 ce: 2.24137 lat: 3.85266 ener: 18.69999
+[33mIP:142 [0m[32m[0422 21:49:17 @model.py:312][0m Start to train w for epoch 1
+[33mIP:142 [0m[32m[0422 21:50:15 @model.py:297][0m Epoch[1] Batch[100] Speed: 230.272021 samples/sec loss: 5.81353 acc: 0.21441 ce: 2.04302 lat: 3.85274 ener: 18.69934
+[33mIP:142 [0m[32m[0422 21:51:09 @model.py:312][0m Start to train w for epoch 2
+[33mIP:142 [0m[32m[0422 21:52:06 @model.py:297][0m Epoch[2] Batch[100] Speed: 229.772766 samples/sec loss: 5.72595 acc: 0.24712 ce: 1.95543 lat: 3.85276 ener: 18.69939
+[33mIP:142 [0m[32m[0422 21:53:00 @model.py:312][0m Start to train w for epoch 3
+[33mIP:142 [0m[32m[0422 21:53:57 @model.py:297][0m Epoch[3] Batch[100] Speed: 230.602109 samples/sec loss: 5.66609 acc: 0.27066 ce: 1.89558 lat: 3.85278 ener: 18.69927
+[33mIP:142 [0m[32m[0422 21:54:50 @model.py:312][0m Start to train w for epoch 4
+[33mIP:142 [0m[32m[0422 21:55:48 @model.py:297][0m Epoch[4] Batch[100] Speed: 231.434091 samples/sec loss: 5.62777 acc: 0.28634 ce: 1.85724 lat: 3.85279 ener: 18.69953
+[33mIP:142 [0m[32m[0422 21:56:41 @model.py:312][0m Start to train w for epoch 5
+[33mIP:142 [0m[32m[0422 21:57:39 @model.py:297][0m Epoch[5] Batch[100] Speed: 231.212542 samples/sec loss: 5.59487 acc: 0.30002 ce: 1.82433 lat: 3.85279 ener: 18.69956
+[33mIP:142 [0m[32m[0422 21:58:32 @model.py:312][0m Start to train w for epoch 6
+[33mIP:142 [0m[32m[0422 21:59:29 @model.py:297][0m Epoch[6] Batch[100] Speed: 231.496467 samples/sec loss: 5.55629 acc: 0.31616 ce: 1.78576 lat: 3.85278 ener: 18.69939
+[33mIP:142 [0m[32m[0422 22:00:23 @model.py:312][0m Start to train w for epoch 7
+[33mIP:142 [0m[32m[0422 22:01:20 @model.py:297][0m Epoch[7] Batch[100] Speed: 231.205473 samples/sec loss: 5.52001 acc: 0.33168 ce: 1.74947 lat: 3.85277 ener: 18.69955
+[33mIP:142 [0m[32m[0422 22:02:13 @model.py:312][0m Start to train w for epoch 8
+[33mIP:142 [0m[32m[0422 22:03:11 @model.py:297][0m Epoch[8] Batch[100] Speed: 231.314737 samples/sec loss: 5.49024 acc: 0.34473 ce: 1.71973 lat: 3.85276 ener: 18.69929
+[33mIP:142 [0m[32m[0422 22:04:04 @model.py:312][0m Start to train w for epoch 9
+[33mIP:142 [0m[32m[0422 22:05:02 @model.py:297][0m Epoch[9] Batch[100] Speed: 230.258186 samples/sec loss: 5.45975 acc: 0.35808 ce: 1.68922 lat: 3.85275 ener: 18.69949
+[33mIP:142 [0m[32m[0422 22:05:55 @model.py:323][0m Start to train theta for epoch 10
+[33mIP:142 [0m[32m[0422 22:06:49 @model.py:297][0m Epoch[10] Batch[100] Speed: 476.360346 samples/sec loss: 5.42832 acc: 0.37047 ce: 1.66032 lat: 3.85143 ener: 18.66616
+[33mIP:142 [0m[32m[0422 22:07:39 @model.py:267][0m Change temperature from 5.00000 to 4.78000
+[33mIP:142 [0m[32m[0422 22:07:39 @model.py:331][0m Start to train w for epoch 10
+[33mIP:142 [0m[32m[0422 22:08:37 @model.py:297][0m Epoch[10] Batch[100] Speed: 238.058859 samples/sec loss: 5.38743 acc: 0.38206 ce: 1.63372 lat: 3.84375 ener: 18.48219
+[33mIP:142 [0m[32m[0422 22:09:30 @model.py:323][0m Start to train theta for epoch 11
+[33mIP:142 [0m[32m[0422 22:10:23 @model.py:297][0m Epoch[11] Batch[100] Speed: 240.172889 samples/sec loss: 5.34038 acc: 0.39511 ce: 1.60236 lat: 3.83497 ener: 18.28353
+[33mIP:142 [0m[32m[0422 22:11:13 @model.py:267][0m Change temperature from 4.78000 to 4.56968
+[33mIP:142 [0m[32m[0422 22:11:13 @model.py:331][0m Start to train w for epoch 11
+[33mIP:142 [0m[32m[0422 22:12:10 @model.py:297][0m Epoch[11] Batch[100] Speed: 239.331353 samples/sec loss: 5.29299 acc: 0.40603 ce: 1.57675 lat: 3.82156 ener: 18.01973
+[33mIP:142 [0m[32m[0422 22:13:03 @model.py:323][0m Start to train theta for epoch 12
+[33mIP:142 [0m[32m[0422 22:13:57 @model.py:297][0m Epoch[12] Batch[100] Speed: 240.127450 samples/sec loss: 5.24933 acc: 0.41539 ce: 1.55478 lat: 3.80767 ener: 17.76169
+[33mIP:142 [0m[32m[0422 22:14:47 @model.py:267][0m Change temperature from 4.56968 to 4.36861
+[33mIP:142 [0m[32m[0422 22:14:47 @model.py:331][0m Start to train w for epoch 12
+[33mIP:142 [0m[32m[0422 22:15:44 @model.py:297][0m Epoch[12] Batch[100] Speed: 239.441293 samples/sec loss: 5.20444 acc: 0.42383 ce: 1.53578 lat: 3.78986 ener: 17.46619
+[33mIP:142 [0m[32m[0422 22:16:37 @model.py:323][0m Start to train theta for epoch 13
+[33mIP:142 [0m[32m[0422 22:17:30 @model.py:297][0m Epoch[13] Batch[100] Speed: 240.068771 samples/sec loss: 5.15857 acc: 0.43210 ce: 1.51588 lat: 3.77184 ener: 17.17404
+[33mIP:142 [0m[32m[0422 22:18:20 @model.py:267][0m Change temperature from 4.36861 to 4.17640
+[33mIP:142 [0m[32m[0422 22:18:20 @model.py:331][0m Start to train w for epoch 13
+[33mIP:142 [0m[32m[0422 22:19:18 @model.py:297][0m Epoch[13] Batch[100] Speed: 238.466678 samples/sec loss: 5.11000 acc: 0.43985 ce: 1.49793 lat: 3.75055 ener: 16.84029
+[33mIP:142 [0m[32m[0422 22:20:11 @model.py:323][0m Start to train theta for epoch 14
+[33mIP:142 [0m[32m[0422 22:21:04 @model.py:297][0m Epoch[14] Batch[100] Speed: 239.873405 samples/sec loss: 5.06274 acc: 0.44693 ce: 1.48110 lat: 3.72946 ener: 16.51305
+[33mIP:142 [0m[32m[0422 22:21:54 @model.py:267][0m Change temperature from 4.17640 to 3.99263
+[33mIP:142 [0m[32m[0422 22:21:54 @model.py:331][0m Start to train w for epoch 14
+[33mIP:142 [0m[32m[0422 22:22:52 @model.py:297][0m Epoch[14] Batch[100] Speed: 238.542774 samples/sec loss: 5.01432 acc: 0.45345 ce: 1.46570 lat: 3.70689 ener: 16.16672
+[33mIP:142 [0m[32m[0422 22:23:45 @model.py:323][0m Start to train theta for epoch 15
+[33mIP:142 [0m[32m[0422 22:24:39 @model.py:297][0m Epoch[15] Batch[100] Speed: 239.519035 samples/sec loss: 4.96589 acc: 0.46026 ce: 1.44929 lat: 3.68520 ener: 15.83401
+[33mIP:142 [0m[32m[0422 22:25:29 @model.py:267][0m Change temperature from 3.99263 to 3.81696
+[33mIP:142 [0m[32m[0422 22:25:29 @model.py:331][0m Start to train w for epoch 15
+[33mIP:142 [0m[32m[0422 22:26:26 @model.py:297][0m Epoch[15] Batch[100] Speed: 237.851480 samples/sec loss: 4.91815 acc: 0.46651 ce: 1.43386 lat: 3.66367 ener: 15.50328
+[33mIP:142 [0m[32m[0422 22:27:20 @model.py:323][0m Start to train theta for epoch 16
+[33mIP:142 [0m[32m[0422 22:28:13 @model.py:297][0m Epoch[16] Batch[100] Speed: 240.076725 samples/sec loss: 4.87124 acc: 0.47310 ce: 1.41788 lat: 3.64306 ener: 15.18961
+[33mIP:142 [0m[32m[0422 22:29:03 @model.py:267][0m Change temperature from 3.81696 to 3.64901
+[33mIP:142 [0m[32m[0422 22:29:03 @model.py:331][0m Start to train w for epoch 16
+[33mIP:142 [0m[32m[0422 22:30:00 @model.py:297][0m Epoch[16] Batch[100] Speed: 239.225911 samples/sec loss: 4.82544 acc: 0.47933 ce: 1.40254 lat: 3.62254 ener: 14.88595
+[33mIP:142 [0m[32m[0422 22:30:53 @model.py:323][0m Start to train theta for epoch 17
+[33mIP:142 [0m[32m[0422 22:31:47 @model.py:297][0m Epoch[17] Batch[100] Speed: 239.995575 samples/sec loss: 4.78187 acc: 0.48522 ce: 1.38798 lat: 3.60300 ener: 14.59865
+[33mIP:142 [0m[32m[0422 22:32:36 @model.py:267][0m Change temperature from 3.64901 to 3.48846
+[33mIP:142 [0m[32m[0422 22:32:36 @model.py:331][0m Start to train w for epoch 17
+[33mIP:142 [0m[32m[0422 22:33:34 @model.py:297][0m Epoch[17] Batch[100] Speed: 238.978107 samples/sec loss: 4.73984 acc: 0.49094 ce: 1.37371 lat: 3.58448 ener: 14.32555
+[33mIP:142 [0m[32m[0422 22:34:27 @model.py:323][0m Start to train theta for epoch 18
+[33mIP:142 [0m[32m[0422 22:35:21 @model.py:297][0m Epoch[18] Batch[100] Speed: 239.692474 samples/sec loss: 4.69911 acc: 0.49646 ce: 1.35970 lat: 3.56663 ener: 14.06482
+[33mIP:142 [0m[32m[0422 22:36:10 @model.py:267][0m Change temperature from 3.48846 to 3.33496
+[33mIP:142 [0m[32m[0422 22:36:10 @model.py:331][0m Start to train w for epoch 18
+[33mIP:142 [0m[32m[0422 22:37:08 @model.py:297][0m Epoch[18] Batch[100] Speed: 238.531482 samples/sec loss: 4.65968 acc: 0.50166 ce: 1.34665 lat: 3.54880 ener: 13.81164
+[33mIP:142 [0m[32m[0422 22:38:01 @model.py:323][0m Start to train theta for epoch 19
+[33mIP:142 [0m[32m[0422 22:38:55 @model.py:297][0m Epoch[19] Batch[100] Speed: 239.611003 samples/sec loss: 4.62447 acc: 0.50573 ce: 1.33673 lat: 3.53171 ener: 13.57055
+[33mIP:142 [0m[32m[0422 22:39:44 @model.py:267][0m Change temperature from 3.33496 to 3.18822
+[33mIP:142 [0m[32m[0422 22:39:44 @model.py:331][0m Start to train w for epoch 19
+[33mIP:142 [0m[32m[0422 22:40:42 @model.py:297][0m Epoch[19] Batch[100] Speed: 239.146450 samples/sec loss: 4.59115 acc: 0.50947 ce: 1.32770 lat: 3.51521 ener: 13.34085
+[33mIP:142 [0m[32m[0422 22:41:35 @model.py:323][0m Start to train theta for epoch 20
+[33mIP:142 [0m[32m[0422 22:42:28 @model.py:297][0m Epoch[20] Batch[100] Speed: 240.019226 samples/sec loss: 4.55813 acc: 0.51348 ce: 1.31795 lat: 3.49947 ener: 13.12183
+[33mIP:142 [0m[32m[0422 22:43:18 @model.py:267][0m Change temperature from 3.18822 to 3.04794
+[33mIP:142 [0m[32m[0422 22:43:18 @model.py:331][0m Start to train w for epoch 20
+[33mIP:142 [0m[32m[0422 22:44:15 @model.py:297][0m Epoch[20] Batch[100] Speed: 239.325812 samples/sec loss: 4.52698 acc: 0.51707 ce: 1.30917 lat: 3.48445 ener: 12.91235
+[33mIP:142 [0m[32m[0422 22:45:09 @model.py:323][0m Start to train theta for epoch 21
+[33mIP:142 [0m[32m[0422 22:46:02 @model.py:297][0m Epoch[21] Batch[100] Speed: 240.031730 samples/sec loss: 4.49698 acc: 0.52051 ce: 1.30096 lat: 3.46986 ener: 12.71001
+[33mIP:142 [0m[32m[0422 22:46:52 @model.py:267][0m Change temperature from 3.04794 to 2.91383
+[33mIP:142 [0m[32m[0422 22:46:52 @model.py:331][0m Start to train w for epoch 21
+[33mIP:142 [0m[32m[0422 22:47:49 @model.py:297][0m Epoch[21] Batch[100] Speed: 238.337022 samples/sec loss: 4.46812 acc: 0.52366 ce: 1.29358 lat: 3.45549 ener: 12.51287
+[33mIP:142 [0m[32m[0422 22:48:43 @model.py:323][0m Start to train theta for epoch 22
+[33mIP:142 [0m[32m[0422 22:49:36 @model.py:297][0m Epoch[22] Batch[100] Speed: 240.096842 samples/sec loss: 4.43977 acc: 0.52677 ce: 1.28606 lat: 3.44148 ener: 12.32328
+[33mIP:142 [0m[32m[0422 22:50:26 @model.py:267][0m Change temperature from 2.91383 to 2.78562
+[33mIP:142 [0m[32m[0422 22:50:26 @model.py:331][0m Start to train w for epoch 22
+[33mIP:142 [0m[32m[0422 22:51:23 @model.py:297][0m Epoch[22] Batch[100] Speed: 238.561842 samples/sec loss: 4.41202 acc: 0.52981 ce: 1.27883 lat: 3.42776 ener: 12.13839
+[33mIP:142 [0m[32m[0422 22:52:17 @model.py:323][0m Start to train theta for epoch 23
+[33mIP:142 [0m[32m[0422 22:53:10 @model.py:297][0m Epoch[23] Batch[100] Speed: 240.146321 samples/sec loss: 4.38449 acc: 0.53279 ce: 1.27146 lat: 3.41436 ener: 11.95835
+[33mIP:142 [0m[32m[0422 22:54:00 @model.py:267][0m Change temperature from 2.78562 to 2.66306
+[33mIP:142 [0m[32m[0422 22:54:00 @model.py:331][0m Start to train w for epoch 23
+[33mIP:142 [0m[32m[0422 22:54:57 @model.py:297][0m Epoch[23] Batch[100] Speed: 238.700954 samples/sec loss: 4.35723 acc: 0.53570 ce: 1.26433 lat: 3.40095 ener: 11.78130
+[33mIP:142 [0m[32m[0422 22:55:51 @model.py:323][0m Start to train theta for epoch 24
+[33mIP:142 [0m[32m[0422 22:56:44 @model.py:297][0m Epoch[24] Batch[100] Speed: 239.600660 samples/sec loss: 4.32997 acc: 0.53872 ce: 1.25673 lat: 3.38784 ener: 11.60979
+[33mIP:142 [0m[32m[0422 22:57:34 @model.py:267][0m Change temperature from 2.66306 to 2.54588
+[33mIP:142 [0m[32m[0422 22:57:34 @model.py:331][0m Start to train w for epoch 24
+[33mIP:142 [0m[32m[0422 22:58:31 @model.py:297][0m Epoch[24] Batch[100] Speed: 238.943448 samples/sec loss: 4.30333 acc: 0.54160 ce: 1.24930 lat: 3.37499 ener: 11.44374
+[33mIP:142 [0m[32m[0422 22:59:24 @model.py:323][0m Start to train theta for epoch 25
+[33mIP:142 [0m[32m[0422 23:00:18 @model.py:297][0m Epoch[25] Batch[100] Speed: 240.038303 samples/sec loss: 4.27741 acc: 0.54446 ce: 1.24221 lat: 3.36238 ener: 11.28234
+[33mIP:142 [0m[32m[0422 23:01:08 @model.py:267][0m Change temperature from 2.54588 to 2.43386
+[33mIP:142 [0m[32m[0422 23:01:08 @model.py:331][0m Start to train w for epoch 25
+[33mIP:142 [0m[32m[0422 23:02:05 @model.py:297][0m Epoch[25] Batch[100] Speed: 239.412453 samples/sec loss: 4.25194 acc: 0.54713 ce: 1.23537 lat: 3.34977 ener: 11.12481
+[33mIP:142 [0m[32m[0422 23:02:58 @model.py:323][0m Start to train theta for epoch 26
+[33mIP:142 [0m[32m[0422 23:03:51 @model.py:297][0m Epoch[26] Batch[100] Speed: 239.991475 samples/sec loss: 4.22687 acc: 0.54987 ce: 1.22853 lat: 3.33747 ener: 10.97177
+[33mIP:142 [0m[32m[0422 23:04:41 @model.py:267][0m Change temperature from 2.43386 to 2.32677
+[33mIP:142 [0m[32m[0422 23:04:41 @model.py:331][0m Start to train w for epoch 26
+[33mIP:142 [0m[32m[0422 23:05:39 @model.py:297][0m Epoch[26] Batch[100] Speed: 238.769443 samples/sec loss: 4.20251 acc: 0.55246 ce: 1.22208 lat: 3.32553 ener: 10.82239
+[33mIP:142 [0m[32m[0422 23:06:32 @model.py:323][0m Start to train theta for epoch 27
+[33mIP:142 [0m[32m[0422 23:07:26 @model.py:297][0m Epoch[27] Batch[100] Speed: 239.296727 samples/sec loss: 4.17858 acc: 0.55498 ce: 1.21569 lat: 3.31388 ener: 10.67719
+[33mIP:142 [0m[32m[0422 23:08:16 @model.py:267][0m Change temperature from 2.32677 to 2.22440
+[33mIP:142 [0m[32m[0422 23:08:16 @model.py:331][0m Start to train w for epoch 27
+[33mIP:142 [0m[32m[0422 23:09:13 @model.py:297][0m Epoch[27] Batch[100] Speed: 238.392373 samples/sec loss: 4.15510 acc: 0.55739 ce: 1.20950 lat: 3.30237 ener: 10.53549
+[33mIP:142 [0m[32m[0422 23:10:06 @model.py:323][0m Start to train theta for epoch 28
+[33mIP:142 [0m[32m[0422 23:11:01 @model.py:297][0m Epoch[28] Batch[100] Speed: 237.146332 samples/sec loss: 4.13176 acc: 0.55988 ce: 1.20312 lat: 3.29108 ener: 10.39753
+[33mIP:142 [0m[32m[0422 23:11:51 @model.py:267][0m Change temperature from 2.22440 to 2.12652
+[33mIP:142 [0m[32m[0422 23:11:51 @model.py:331][0m Start to train w for epoch 28
+[33mIP:142 [0m[32m[0422 23:12:48 @model.py:297][0m Epoch[28] Batch[100] Speed: 238.584058 samples/sec loss: 4.10905 acc: 0.56224 ce: 1.19706 lat: 3.28001 ener: 10.26320
+[33mIP:142 [0m[32m[0422 23:13:41 @model.py:323][0m Start to train theta for epoch 29
+[33mIP:142 [0m[32m[0422 23:14:35 @model.py:297][0m Epoch[29] Batch[100] Speed: 239.507904 samples/sec loss: 4.08669 acc: 0.56463 ce: 1.19095 lat: 3.26921 ener: 10.13277
+[33mIP:142 [0m[32m[0422 23:15:25 @model.py:267][0m Change temperature from 2.12652 to 2.03296
+[33mIP:142 [0m[32m[0422 23:15:25 @model.py:331][0m Start to train w for epoch 29
+[33mIP:142 [0m[32m[0422 23:16:23 @model.py:297][0m Epoch[29] Batch[100] Speed: 238.294246 samples/sec loss: 4.06607 acc: 0.56656 ce: 1.18621 lat: 3.25862 ener: 10.00614
+[33mIP:142 [0m[32m[0422 23:17:16 @model.py:323][0m Start to train theta for epoch 30
+[33mIP:142 [0m[32m[0422 23:18:09 @model.py:297][0m Epoch[30] Batch[100] Speed: 239.928176 samples/sec loss: 4.04825 acc: 0.56769 ce: 1.18380 lat: 3.24833 ener: 9.88376
+[33mIP:142 [0m[32m[0422 23:18:59 @model.py:267][0m Change temperature from 2.03296 to 1.94351
+[33mIP:142 [0m[32m[0422 23:18:59 @model.py:331][0m Start to train w for epoch 30
+[33mIP:142 [0m[32m[0422 23:19:57 @model.py:297][0m Epoch[30] Batch[100] Speed: 238.837356 samples/sec loss: 4.03093 acc: 0.56883 ce: 1.18126 lat: 3.23838 ener: 9.76646
+[33mIP:142 [0m[32m[0422 23:20:50 @model.py:323][0m Start to train theta for epoch 31
+[33mIP:142 [0m[32m[0422 23:21:44 @model.py:297][0m Epoch[31] Batch[100] Speed: 238.834190 samples/sec loss: 4.01427 acc: 0.56991 ce: 1.17886 lat: 3.22880 ener: 9.65324
+[33mIP:142 [0m[32m[0422 23:22:33 @model.py:267][0m Change temperature from 1.94351 to 1.85799
+[33mIP:142 [0m[32m[0422 23:22:33 @model.py:331][0m Start to train w for epoch 31
+[33mIP:142 [0m[32m[0422 23:23:31 @model.py:297][0m Epoch[31] Batch[100] Speed: 238.512031 samples/sec loss: 3.99781 acc: 0.57118 ce: 1.17601 lat: 3.21970 ener: 9.54491
+[33mIP:142 [0m[32m[0422 23:24:24 @model.py:323][0m Start to train theta for epoch 32
+[33mIP:142 [0m[32m[0422 23:25:18 @model.py:297][0m Epoch[32] Batch[100] Speed: 240.068383 samples/sec loss: 3.98192 acc: 0.57232 ce: 1.17341 lat: 3.21084 ener: 9.43955
+[33mIP:142 [0m[32m[0422 23:26:07 @model.py:267][0m Change temperature from 1.85799 to 1.77624
+[33mIP:142 [0m[32m[0422 23:26:07 @model.py:331][0m Start to train w for epoch 32
+[33mIP:142 [0m[32m[0422 23:27:05 @model.py:297][0m Epoch[32] Batch[100] Speed: 238.979634 samples/sec loss: 3.96639 acc: 0.57342 ce: 1.17085 lat: 3.20227 ener: 9.33691
+[33mIP:142 [0m[32m[0422 23:27:58 @model.py:323][0m Start to train theta for epoch 33
+[33mIP:142 [0m[32m[0422 23:28:51 @model.py:297][0m Epoch[33] Batch[100] Speed: 239.954240 samples/sec loss: 3.95055 acc: 0.57470 ce: 1.16781 lat: 3.19384 ener: 9.23641
+[33mIP:142 [0m[32m[0422 23:29:41 @model.py:267][0m Change temperature from 1.77624 to 1.69808
+[33mIP:142 [0m[32m[0422 23:29:41 @model.py:331][0m Start to train w for epoch 33
+[33mIP:142 [0m[32m[0422 23:30:39 @model.py:297][0m Epoch[33] Batch[100] Speed: 238.933859 samples/sec loss: 3.93479 acc: 0.57603 ce: 1.16473 lat: 3.18546 ener: 9.13775
+[33mIP:142 [0m[32m[0422 23:31:32 @model.py:323][0m Start to train theta for epoch 34
+[33mIP:142 [0m[32m[0422 23:32:25 @model.py:297][0m Epoch[34] Batch[100] Speed: 240.278952 samples/sec loss: 3.91949 acc: 0.57723 ce: 1.16188 lat: 3.17726 ener: 9.04142
+[33mIP:142 [0m[32m[0422 23:33:15 @model.py:267][0m Change temperature from 1.69808 to 1.62337
+[33mIP:142 [0m[32m[0422 23:33:15 @model.py:331][0m Start to train w for epoch 34
+[33mIP:142 [0m[32m[0422 23:34:12 @model.py:297][0m Epoch[34] Batch[100] Speed: 238.856563 samples/sec loss: 3.90441 acc: 0.57841 ce: 1.15906 lat: 3.16927 ener: 8.94696
+[33mIP:142 [0m[32m[0422 23:35:06 @model.py:323][0m Start to train theta for epoch 35
+[33mIP:142 [0m[32m[0422 23:35:59 @model.py:297][0m Epoch[35] Batch[100] Speed: 239.486021 samples/sec loss: 3.88939 acc: 0.57969 ce: 1.15604 lat: 3.16150 ener: 8.85489
+[33mIP:142 [0m[32m[0422 23:36:49 @model.py:267][0m Change temperature from 1.62337 to 1.55194
+[33mIP:142 [0m[32m[0422 23:36:49 @model.py:331][0m Start to train w for epoch 35
+[33mIP:142 [0m[32m[0422 23:37:46 @model.py:297][0m Epoch[35] Batch[100] Speed: 238.878304 samples/sec loss: 3.87467 acc: 0.58099 ce: 1.15300 lat: 3.15395 ener: 8.76532
+[33mIP:142 [0m[32m[0422 23:38:40 @model.py:323][0m Start to train theta for epoch 36
+[33mIP:142 [0m[32m[0422 23:39:33 @model.py:297][0m Epoch[36] Batch[100] Speed: 239.581163 samples/sec loss: 3.85984 acc: 0.58234 ce: 1.14969 lat: 3.14652 ener: 8.67761
+[33mIP:142 [0m[32m[0422 23:40:23 @model.py:267][0m Change temperature from 1.55194 to 1.48366
+[33mIP:142 [0m[32m[0422 23:40:23 @model.py:331][0m Start to train w for epoch 36
+[33mIP:142 [0m[32m[0422 23:41:21 @model.py:297][0m Epoch[36] Batch[100] Speed: 238.481862 samples/sec loss: 3.84547 acc: 0.58354 ce: 1.14672 lat: 3.13924 ener: 8.59126
+[33mIP:142 [0m[32m[0422 23:42:14 @model.py:323][0m Start to train theta for epoch 37
+[33mIP:142 [0m[32m[0422 23:43:07 @model.py:297][0m Epoch[37] Batch[100] Speed: 239.556868 samples/sec loss: 3.83114 acc: 0.58486 ce: 1.14358 lat: 3.13211 ener: 8.50696
+[33mIP:142 [0m[32m[0422 23:43:57 @model.py:267][0m Change temperature from 1.48366 to 1.41837
+[33mIP:142 [0m[32m[0422 23:43:57 @model.py:331][0m Start to train w for epoch 37
+[33mIP:142 [0m[32m[0422 23:44:55 @model.py:297][0m Epoch[37] Batch[100] Speed: 238.660876 samples/sec loss: 3.81711 acc: 0.58612 ce: 1.14047 lat: 3.12512 ener: 8.42490
+[33mIP:142 [0m[32m[0422 23:45:48 @model.py:323][0m Start to train theta for epoch 38
+[33mIP:142 [0m[32m[0422 23:46:42 @model.py:297][0m Epoch[38] Batch[100] Speed: 239.203707 samples/sec loss: 3.80396 acc: 0.58720 ce: 1.13794 lat: 3.11831 ener: 8.34523
+[33mIP:142 [0m[32m[0422 23:47:32 @model.py:267][0m Change temperature from 1.41837 to 1.35597
+[33mIP:142 [0m[32m[0422 23:47:32 @model.py:331][0m Start to train w for epoch 38
+[33mIP:142 [0m[32m[0422 23:48:29 @model.py:297][0m Epoch[38] Batch[100] Speed: 237.953646 samples/sec loss: 3.79134 acc: 0.58826 ce: 1.13547 lat: 3.11178 ener: 8.26865
+[33mIP:142 [0m[32m[0422 23:49:23 @model.py:323][0m Start to train theta for epoch 39
+[33mIP:142 [0m[32m[0422 23:50:16 @model.py:297][0m Epoch[39] Batch[100] Speed: 240.128320 samples/sec loss: 3.77814 acc: 0.58954 ce: 1.13218 lat: 3.10542 ener: 8.19399
+[33mIP:142 [0m[32m[0422 23:51:06 @model.py:267][0m Change temperature from 1.35597 to 1.29630
+[33mIP:142 [0m[32m[0422 23:51:06 @model.py:331][0m Start to train w for epoch 39
+[33mIP:142 [0m[32m[0422 23:52:03 @model.py:297][0m Epoch[39] Batch[100] Speed: 239.288706 samples/sec loss: 3.76509 acc: 0.59087 ce: 1.12889 lat: 3.09920 ener: 8.12084
+[33mIP:142 [0m[32m[0422 23:52:56 @model.py:323][0m Start to train theta for epoch 40
+[33mIP:142 [0m[32m[0422 23:53:50 @model.py:297][0m Epoch[40] Batch[100] Speed: 240.026377 samples/sec loss: 3.75219 acc: 0.59222 ce: 1.12558 lat: 3.09308 ener: 8.04914
+[33mIP:142 [0m[32m[0422 23:54:39 @model.py:267][0m Change temperature from 1.29630 to 1.23927
+[33mIP:142 [0m[32m[0422 23:54:39 @model.py:331][0m Start to train w for epoch 40
+[33mIP:142 [0m[32m[0422 23:55:37 @model.py:297][0m Epoch[40] Batch[100] Speed: 238.616168 samples/sec loss: 3.73945 acc: 0.59353 ce: 1.12226 lat: 3.08709 ener: 7.97910
+[33mIP:142 [0m[32m[0422 23:56:30 @model.py:323][0m Start to train theta for epoch 41
+[33mIP:142 [0m[32m[0422 23:57:24 @model.py:297][0m Epoch[41] Batch[100] Speed: 240.059431 samples/sec loss: 3.72707 acc: 0.59479 ce: 1.11909 lat: 3.08124 ener: 7.91062
+[33mIP:142 [0m[32m[0422 23:58:13 @model.py:267][0m Change temperature from 1.23927 to 1.18474
+[33mIP:142 [0m[32m[0422 23:58:13 @model.py:331][0m Start to train w for epoch 41
+[33mIP:142 [0m[32m[0422 23:59:10 @model.py:297][0m Epoch[41] Batch[100] Speed: 239.388458 samples/sec loss: 3.71503 acc: 0.59601 ce: 1.11609 lat: 3.07552 ener: 7.84365
+[33mIP:142 [0m[32m[0423 00:00:04 @model.py:323][0m Start to train theta for epoch 42
+[33mIP:142 [0m[32m[0423 00:00:57 @model.py:297][0m Epoch[42] Batch[100] Speed: 240.028027 samples/sec loss: 3.70277 acc: 0.59738 ce: 1.11267 lat: 3.06993 ener: 7.77822
+[33mIP:142 [0m[32m[0423 00:01:47 @model.py:267][0m Change temperature from 1.18474 to 1.13261
+[33mIP:142 [0m[32m[0423 00:01:47 @model.py:331][0m Start to train w for epoch 42
+[33mIP:142 [0m[32m[0423 00:02:44 @model.py:297][0m Epoch[42] Batch[100] Speed: 238.806687 samples/sec loss: 3.69080 acc: 0.59871 ce: 1.10933 lat: 3.06448 ener: 7.71447
+[33mIP:142 [0m[32m[0423 00:03:38 @model.py:323][0m Start to train theta for epoch 43
+[33mIP:142 [0m[32m[0423 00:04:31 @model.py:297][0m Epoch[43] Batch[100] Speed: 238.967588 samples/sec loss: 3.67905 acc: 0.60001 ce: 1.10604 lat: 3.05915 ener: 7.65208
+[33mIP:142 [0m[32m[0423 00:05:21 @model.py:267][0m Change temperature from 1.13261 to 1.08278
+[33mIP:142 [0m[32m[0423 00:05:21 @model.py:331][0m Start to train w for epoch 43
+[33mIP:142 [0m[32m[0423 00:06:19 @model.py:297][0m Epoch[43] Batch[100] Speed: 238.809974 samples/sec loss: 3.66761 acc: 0.60125 ce: 1.10288 lat: 3.05394 ener: 7.59107
+[33mIP:142 [0m[32m[0423 00:07:12 @model.py:323][0m Start to train theta for epoch 44
+[33mIP:142 [0m[32m[0423 00:08:06 @model.py:297][0m Epoch[44] Batch[100] Speed: 239.485387 samples/sec loss: 3.65625 acc: 0.60253 ce: 1.09965 lat: 3.04885 ener: 7.53132
+[33mIP:142 [0m[32m[0423 00:08:55 @model.py:267][0m Change temperature from 1.08278 to 1.03513
+[33mIP:142 [0m[32m[0423 00:08:55 @model.py:331][0m Start to train w for epoch 44
+[33mIP:142 [0m[32m[0423 00:09:53 @model.py:297][0m Epoch[44] Batch[100] Speed: 238.490595 samples/sec loss: 3.64515 acc: 0.60375 ce: 1.09652 lat: 3.04387 ener: 7.47286
+[33mIP:142 [0m[32m[0423 00:10:46 @model.py:323][0m Start to train theta for epoch 45
+[33mIP:142 [0m[32m[0423 00:11:40 @model.py:297][0m Epoch[45] Batch[100] Speed: 240.047219 samples/sec loss: 3.63422 acc: 0.60494 ce: 1.09342 lat: 3.03899 ener: 7.41552
+[33mIP:142 [0m[32m[0423 00:12:29 @model.py:267][0m Change temperature from 1.03513 to 0.98959
+[33mIP:142 [0m[32m[0423 00:12:29 @model.py:331][0m Start to train w for epoch 45
+[33mIP:142 [0m[32m[0423 00:13:27 @model.py:297][0m Epoch[45] Batch[100] Speed: 238.626674 samples/sec loss: 3.62450 acc: 0.60580 ce: 1.09137 lat: 3.03421 ener: 7.35946
+[33mIP:142 [0m[32m[0423 00:14:20 @model.py:323][0m Start to train theta for epoch 46
+[33mIP:142 [0m[32m[0423 00:15:14 @model.py:297][0m Epoch[46] Batch[100] Speed: 239.669955 samples/sec loss: 3.61721 acc: 0.60588 ce: 1.09168 lat: 3.02950 ener: 7.30422
+[33mIP:142 [0m[32m[0423 00:16:04 @model.py:267][0m Change temperature from 0.98959 to 0.94605
+[33mIP:142 [0m[32m[0423 00:16:04 @model.py:331][0m Start to train w for epoch 46
+[33mIP:142 [0m[32m[0423 00:17:01 @model.py:297][0m Epoch[46] Batch[100] Speed: 238.477620 samples/sec loss: 3.60995 acc: 0.60600 ce: 1.09185 lat: 3.02486 ener: 7.25025
+[33mIP:142 [0m[32m[0423 00:17:54 @model.py:323][0m Start to train theta for epoch 47
+[33mIP:142 [0m[32m[0423 00:18:48 @model.py:297][0m Epoch[47] Batch[100] Speed: 240.174933 samples/sec loss: 3.60326 acc: 0.60603 ce: 1.09236 lat: 3.02035 ener: 7.19789
+[33mIP:142 [0m[32m[0423 00:19:37 @model.py:267][0m Change temperature from 0.94605 to 0.90442
+[33mIP:142 [0m[32m[0423 00:19:37 @model.py:331][0m Start to train w for epoch 47
+[33mIP:142 [0m[32m[0423 00:20:35 @model.py:297][0m Epoch[47] Batch[100] Speed: 239.186211 samples/sec loss: 3.59672 acc: 0.60610 ce: 1.09272 lat: 3.01600 ener: 7.14739
+[33mIP:142 [0m[32m[0423 00:21:28 @model.py:323][0m Start to train theta for epoch 48
+[33mIP:142 [0m[32m[0423 00:22:22 @model.py:297][0m Epoch[48] Batch[100] Speed: 238.950570 samples/sec loss: 3.58959 acc: 0.60639 ce: 1.09232 lat: 3.01179 ener: 7.09803
+[33mIP:142 [0m[32m[0423 00:23:11 @model.py:267][0m Change temperature from 0.90442 to 0.86463
+[33mIP:142 [0m[32m[0423 00:23:11 @model.py:331][0m Start to train w for epoch 48
+[33mIP:142 [0m[32m[0423 00:24:09 @model.py:297][0m Epoch[48] Batch[100] Speed: 238.297417 samples/sec loss: 3.58263 acc: 0.60671 ce: 1.09189 lat: 3.00779 ener: 7.04981
+[33mIP:142 [0m[32m[0423 00:25:03 @model.py:323][0m Start to train theta for epoch 49
+[33mIP:142 [0m[32m[0423 00:25:56 @model.py:297][0m Epoch[49] Batch[100] Speed: 238.913000 samples/sec loss: 3.57565 acc: 0.60706 ce: 1.09126 lat: 3.00388 ener: 7.00293
+[33mIP:142 [0m[32m[0423 00:26:46 @model.py:267][0m Change temperature from 0.86463 to 0.82658
+[33mIP:142 [0m[32m[0423 00:26:46 @model.py:331][0m Start to train w for epoch 49
+[33mIP:142 [0m[32m[0423 00:27:44 @model.py:297][0m Epoch[49] Batch[100] Speed: 238.325974 samples/sec loss: 3.56881 acc: 0.60743 ce: 1.09056 lat: 3.00005 ener: 6.95748
+[33mIP:142 [0m[32m[0423 00:28:37 @model.py:323][0m Start to train theta for epoch 50
+[33mIP:142 [0m[32m[0423 00:29:31 @model.py:297][0m Epoch[50] Batch[100] Speed: 239.025566 samples/sec loss: 3.56193 acc: 0.60781 ce: 1.08977 lat: 2.99629 ener: 6.91261
+[33mIP:142 [0m[32m[0423 00:30:21 @model.py:267][0m Change temperature from 0.82658 to 0.79021
+[33mIP:142 [0m[32m[0423 00:30:21 @model.py:331][0m Start to train w for epoch 50
+[33mIP:142 [0m[32m[0423 00:31:18 @model.py:297][0m Epoch[50] Batch[100] Speed: 238.114786 samples/sec loss: 3.55522 acc: 0.60820 ce: 1.08907 lat: 2.99262 ener: 6.86840
+[33mIP:142 [0m[32m[0423 00:32:12 @model.py:323][0m Start to train theta for epoch 51
+[33mIP:142 [0m[32m[0423 00:33:06 @model.py:297][0m Epoch[51] Batch[100] Speed: 237.443636 samples/sec loss: 3.54832 acc: 0.60870 ce: 1.08800 lat: 2.98905 ener: 6.82535
+[33mIP:142 [0m[32m[0423 00:33:56 @model.py:267][0m Change temperature from 0.79021 to 0.75544
+[33mIP:142 [0m[32m[0423 00:33:56 @model.py:331][0m Start to train w for epoch 51
+[33mIP:142 [0m[32m[0423 00:34:54 @model.py:297][0m Epoch[51] Batch[100] Speed: 237.120338 samples/sec loss: 3.54158 acc: 0.60918 ce: 1.08697 lat: 2.98554 ener: 6.78327
+[33mIP:142 [0m[32m[0423 00:35:47 @model.py:323][0m Start to train theta for epoch 52
+[33mIP:142 [0m[32m[0423 00:36:41 @model.py:297][0m Epoch[52] Batch[100] Speed: 240.016433 samples/sec loss: 3.53506 acc: 0.60959 ce: 1.08607 lat: 2.98211 ener: 6.74186
+[33mIP:142 [0m[32m[0423 00:37:31 @model.py:267][0m Change temperature from 0.75544 to 0.72220
+[33mIP:142 [0m[32m[0423 00:37:31 @model.py:331][0m Start to train w for epoch 52
+[33mIP:142 [0m[32m[0423 00:38:29 @model.py:297][0m Epoch[52] Batch[100] Speed: 237.456817 samples/sec loss: 3.52874 acc: 0.60998 ce: 1.08527 lat: 2.97879 ener: 6.70115
+[33mIP:142 [0m[32m[0423 00:39:22 @model.py:323][0m Start to train theta for epoch 53
+[33mIP:142 [0m[32m[0423 00:40:16 @model.py:297][0m Epoch[53] Batch[100] Speed: 238.269298 samples/sec loss: 3.52242 acc: 0.61042 ce: 1.08436 lat: 2.97555 ener: 6.66130
+[33mIP:142 [0m[32m[0423 00:41:06 @model.py:267][0m Change temperature from 0.72220 to 0.69043
+[33mIP:142 [0m[32m[0423 00:41:06 @model.py:331][0m Start to train w for epoch 53
+[33mIP:142 [0m[32m[0423 00:42:04 @model.py:297][0m Epoch[53] Batch[100] Speed: 236.688418 samples/sec loss: 3.51614 acc: 0.61089 ce: 1.08335 lat: 2.97240 ener: 6.62228
+[33mIP:142 [0m[32m[0423 00:42:58 @model.py:323][0m Start to train theta for epoch 54
+[33mIP:142 [0m[32m[0423 00:43:52 @model.py:297][0m Epoch[54] Batch[100] Speed: 238.206769 samples/sec loss: 3.50980 acc: 0.61143 ce: 1.08218 lat: 2.96932 ener: 6.58411
+[33mIP:142 [0m[32m[0423 00:44:42 @model.py:267][0m Change temperature from 0.69043 to 0.66005
+[33mIP:142 [0m[32m[0423 00:44:42 @model.py:331][0m Start to train w for epoch 54
+[33mIP:142 [0m[32m[0423 00:45:39 @model.py:297][0m Epoch[54] Batch[100] Speed: 238.212679 samples/sec loss: 3.50355 acc: 0.61193 ce: 1.08100 lat: 2.96629 ener: 6.54665
+[33mIP:142 [0m[32m[0423 00:46:32 @model.py:323][0m Start to train theta for epoch 55
+[33mIP:142 [0m[32m[0423 00:47:26 @model.py:297][0m Epoch[55] Batch[100] Speed: 239.170482 samples/sec loss: 3.49751 acc: 0.61243 ce: 1.07995 lat: 2.96332 ener: 6.50984
+[33mIP:142 [0m[32m[0423 00:48:16 @model.py:267][0m Change temperature from 0.66005 to 0.63101
+[33mIP:142 [0m[32m[0423 00:48:16 @model.py:331][0m Start to train w for epoch 55
+[33mIP:142 [0m[32m[0423 00:49:14 @model.py:297][0m Epoch[55] Batch[100] Speed: 238.388003 samples/sec loss: 3.49165 acc: 0.61290 ce: 1.07895 lat: 2.96042 ener: 6.47387
+[33mIP:142 [0m[32m[0423 00:50:07 @model.py:323][0m Start to train theta for epoch 56
+[33mIP:142 [0m[32m[0423 00:51:00 @model.py:297][0m Epoch[56] Batch[100] Speed: 239.830908 samples/sec loss: 3.48584 acc: 0.61334 ce: 1.07796 lat: 2.95756 ener: 6.43837
+[33mIP:142 [0m[32m[0423 00:51:50 @model.py:267][0m Change temperature from 0.63101 to 0.60324
+[33mIP:142 [0m[32m[0423 00:51:50 @model.py:331][0m Start to train w for epoch 56
+[33mIP:142 [0m[32m[0423 00:52:48 @model.py:297][0m Epoch[56] Batch[100] Speed: 238.093012 samples/sec loss: 3.48007 acc: 0.61379 ce: 1.07698 lat: 2.95475 ener: 6.40316
+[33mIP:142 [0m[32m[0423 00:53:41 @model.py:323][0m Start to train theta for epoch 57
+[33mIP:142 [0m[32m[0423 00:54:35 @model.py:297][0m Epoch[57] Batch[100] Speed: 239.256825 samples/sec loss: 3.47399 acc: 0.61441 ce: 1.07550 lat: 2.95206 ener: 6.36914
+[33mIP:142 [0m[32m[0423 00:55:25 @model.py:267][0m Change temperature from 0.60324 to 0.57670
+[33mIP:142 [0m[32m[0423 00:55:25 @model.py:331][0m Start to train w for epoch 57
+[33mIP:142 [0m[32m[0423 00:56:22 @model.py:297][0m Epoch[57] Batch[100] Speed: 238.450227 samples/sec loss: 3.46798 acc: 0.61509 ce: 1.07388 lat: 2.94951 ener: 6.33629
+[33mIP:142 [0m[32m[0423 00:57:15 @model.py:323][0m Start to train theta for epoch 58
+[33mIP:142 [0m[32m[0423 00:58:09 @model.py:297][0m Epoch[58] Batch[100] Speed: 238.894308 samples/sec loss: 3.46197 acc: 0.61577 ce: 1.07216 lat: 2.94701 ener: 6.30409
+[33mIP:142 [0m[32m[0423 00:58:59 @model.py:267][0m Change temperature from 0.57670 to 0.55132
+[33mIP:142 [0m[32m[0423 00:58:59 @model.py:331][0m Start to train w for epoch 58
+[33mIP:142 [0m[32m[0423 00:59:57 @model.py:297][0m Epoch[58] Batch[100] Speed: 238.542871 samples/sec loss: 3.45597 acc: 0.61648 ce: 1.07035 lat: 2.94457 ener: 6.27263
+[33mIP:142 [0m[32m[0423 01:00:50 @model.py:323][0m Start to train theta for epoch 59
+[33mIP:142 [0m[32m[0423 01:01:44 @model.py:297][0m Epoch[59] Batch[100] Speed: 239.538862 samples/sec loss: 3.45000 acc: 0.61721 ce: 1.06851 lat: 2.94217 ener: 6.24162
+[33mIP:142 [0m[32m[0423 01:02:33 @model.py:267][0m Change temperature from 0.55132 to 0.52707
+[33mIP:142 [0m[32m[0423 01:02:33 @model.py:331][0m Start to train w for epoch 59
+[33mIP:142 [0m[32m[0423 01:03:31 @model.py:297][0m Epoch[59] Batch[100] Speed: 239.113144 samples/sec loss: 3.44409 acc: 0.61793 ce: 1.06670 lat: 2.93984 ener: 6.21092
+[33mIP:142 [0m[32m[0423 01:04:24 @model.py:323][0m Start to train theta for epoch 60
+[33mIP:142 [0m[32m[0423 01:05:17 @model.py:297][0m Epoch[60] Batch[100] Speed: 239.726423 samples/sec loss: 3.43821 acc: 0.61869 ce: 1.06486 lat: 2.93755 ener: 6.18072
+[33mIP:142 [0m[32m[0423 01:06:07 @model.py:267][0m Change temperature from 0.52707 to 0.50387
+[33mIP:142 [0m[32m[0423 01:06:07 @model.py:331][0m Start to train w for epoch 60
+[33mIP:142 [0m[32m[0423 01:07:05 @model.py:297][0m Epoch[60] Batch[100] Speed: 238.285526 samples/sec loss: 3.43242 acc: 0.61941 ce: 1.06305 lat: 2.93528 ener: 6.15100
+[33mIP:142 [0m[32m[0423 01:07:58 @model.py:323][0m Start to train theta for epoch 61
+[33mIP:142 [0m[32m[0423 01:08:52 @model.py:297][0m Epoch[61] Batch[100] Speed: 239.120227 samples/sec loss: 3.42648 acc: 0.62020 ce: 1.06099 lat: 2.93306 ener: 6.12198
+[33mIP:142 [0m[32m[0423 01:09:42 @model.py:267][0m Change temperature from 0.50387 to 0.48170
+[33mIP:142 [0m[32m[0423 01:09:42 @model.py:331][0m Start to train w for epoch 61
+[33mIP:142 [0m[32m[0423 01:10:39 @model.py:297][0m Epoch[61] Batch[100] Speed: 239.477398 samples/sec loss: 3.42066 acc: 0.62101 ce: 1.05891 lat: 2.93093 ener: 6.09375
+[33mIP:142 [0m[32m[0423 01:11:32 @model.py:323][0m Start to train theta for epoch 62
+[33mIP:142 [0m[32m[0423 01:12:25 @model.py:297][0m Epoch[62] Batch[100] Speed: 240.277614 samples/sec loss: 3.41480 acc: 0.62184 ce: 1.05673 lat: 2.92884 ener: 6.06597
+[33mIP:142 [0m[32m[0423 01:13:15 @model.py:267][0m Change temperature from 0.48170 to 0.46051
+[33mIP:142 [0m[32m[0423 01:13:15 @model.py:331][0m Start to train w for epoch 62
+[33mIP:142 [0m[32m[0423 01:14:12 @model.py:297][0m Epoch[62] Batch[100] Speed: 239.141941 samples/sec loss: 3.40906 acc: 0.62266 ce: 1.05454 lat: 2.92684 ener: 6.03895
+[33mIP:142 [0m[32m[0423 01:15:06 @model.py:323][0m Start to train theta for epoch 63
+[33mIP:142 [0m[32m[0423 01:15:59 @model.py:297][0m Epoch[63] Batch[100] Speed: 239.852273 samples/sec loss: 3.40327 acc: 0.62352 ce: 1.05224 lat: 2.92488 ener: 6.01240
+[33mIP:142 [0m[32m[0423 01:16:49 @model.py:267][0m Change temperature from 0.46051 to 0.44025
+[33mIP:142 [0m[32m[0423 01:16:49 @model.py:331][0m Start to train w for epoch 63
+[33mIP:142 [0m[32m[0423 01:17:46 @model.py:297][0m Epoch[63] Batch[100] Speed: 239.186420 samples/sec loss: 3.39749 acc: 0.62439 ce: 1.04988 lat: 2.92298 ener: 5.98636
+[33mIP:142 [0m[32m[0423 01:18:39 @model.py:323][0m Start to train theta for epoch 64
+[33mIP:142 [0m[32m[0423 01:19:33 @model.py:297][0m Epoch[64] Batch[100] Speed: 239.612206 samples/sec loss: 3.39174 acc: 0.62528 ce: 1.04749 lat: 2.92110 ener: 5.96076
+[33mIP:142 [0m[32m[0423 01:20:23 @model.py:267][0m Change temperature from 0.44025 to 0.42088
+[33mIP:142 [0m[32m[0423 01:20:23 @model.py:331][0m Start to train w for epoch 64
+[33mIP:142 [0m[32m[0423 01:21:21 @model.py:297][0m Epoch[64] Batch[100] Speed: 238.071243 samples/sec loss: 3.38602 acc: 0.62619 ce: 1.04505 lat: 2.91927 ener: 5.93572
+[33mIP:142 [0m[32m[0423 01:22:14 @model.py:323][0m Start to train theta for epoch 65
+[33mIP:142 [0m[32m[0423 01:23:07 @model.py:297][0m Epoch[65] Batch[100] Speed: 239.976353 samples/sec loss: 3.38036 acc: 0.62710 ce: 1.04260 lat: 2.91746 ener: 5.91113
+[33mIP:142 [0m[32m[0423 01:23:57 @model.py:267][0m Change temperature from 0.42088 to 0.40236
+[33mIP:142 [0m[32m[0423 01:23:57 @model.py:331][0m Start to train w for epoch 65
+[33mIP:142 [0m[32m[0423 01:24:55 @model.py:297][0m Epoch[65] Batch[100] Speed: 237.713676 samples/sec loss: 3.37475 acc: 0.62805 ce: 1.04011 lat: 2.91571 ener: 5.88715
+[33mIP:142 [0m[32m[0423 01:25:49 @model.py:323][0m Start to train theta for epoch 66
+[33mIP:142 [0m[32m[0423 01:26:42 @model.py:297][0m Epoch[66] Batch[100] Speed: 238.939963 samples/sec loss: 3.36915 acc: 0.62896 ce: 1.03759 lat: 2.91399 ener: 5.86354
+[33mIP:142 [0m[32m[0423 01:27:32 @model.py:267][0m Change temperature from 0.40236 to 0.38465
+[33mIP:142 [0m[32m[0423 01:27:32 @model.py:331][0m Start to train w for epoch 66
+[33mIP:142 [0m[32m[0423 01:28:29 @model.py:297][0m Epoch[66] Batch[100] Speed: 238.307940 samples/sec loss: 3.36364 acc: 0.62991 ce: 1.03508 lat: 2.91231 ener: 5.84038
+[33mIP:142 [0m[32m[0423 01:29:23 @model.py:323][0m Start to train theta for epoch 67
+[33mIP:142 [0m[32m[0423 01:30:17 @model.py:297][0m Epoch[67] Batch[100] Speed: 238.853994 samples/sec loss: 3.35816 acc: 0.63084 ce: 1.03255 lat: 2.91067 ener: 5.81762
+[33mIP:142 [0m[32m[0423 01:31:07 @model.py:267][0m Change temperature from 0.38465 to 0.36773
+[33mIP:142 [0m[32m[0423 01:31:07 @model.py:331][0m Start to train w for epoch 67
+[33mIP:142 [0m[32m[0423 01:32:04 @model.py:297][0m Epoch[67] Batch[100] Speed: 238.517957 samples/sec loss: 3.35275 acc: 0.63179 ce: 1.03002 lat: 2.90907 ener: 5.79532
+[33mIP:142 [0m[32m[0423 01:32:57 @model.py:323][0m Start to train theta for epoch 68
+[33mIP:142 [0m[32m[0423 01:33:51 @model.py:297][0m Epoch[68] Batch[100] Speed: 239.665351 samples/sec loss: 3.34738 acc: 0.63272 ce: 1.02748 lat: 2.90751 ener: 5.77345
+[33mIP:142 [0m[32m[0423 01:34:41 @model.py:267][0m Change temperature from 0.36773 to 0.35155
+[33mIP:142 [0m[32m[0423 01:34:41 @model.py:331][0m Start to train w for epoch 68
+[33mIP:142 [0m[32m[0423 01:35:38 @model.py:297][0m Epoch[68] Batch[100] Speed: 237.670997 samples/sec loss: 3.34211 acc: 0.63366 ce: 1.02495 lat: 2.90600 ener: 5.75203
+[33mIP:142 [0m[32m[0423 01:36:32 @model.py:323][0m Start to train theta for epoch 69
+[33mIP:142 [0m[32m[0423 01:37:26 @model.py:297][0m Epoch[69] Batch[100] Speed: 238.374146 samples/sec loss: 3.33782 acc: 0.63428 ce: 1.02336 lat: 2.90452 ener: 5.73100
+[33mIP:142 [0m[32m[0423 01:38:16 @model.py:267][0m Change temperature from 0.35155 to 0.33608
+[33mIP:142 [0m[32m[0423 01:38:16 @model.py:331][0m Start to train w for epoch 69
+[33mIP:142 [0m[32m[0423 01:39:13 @model.py:297][0m Epoch[69] Batch[100] Speed: 238.452801 samples/sec loss: 3.33437 acc: 0.63464 ce: 1.02254 lat: 2.90302 ener: 5.71049
+[33mIP:142 [0m[32m[0423 01:40:06 @model.py:323][0m Start to train theta for epoch 70
+[33mIP:142 [0m[32m[0423 01:41:00 @model.py:297][0m Epoch[70] Batch[100] Speed: 240.234400 samples/sec loss: 3.33131 acc: 0.63490 ce: 1.02206 lat: 2.90154 ener: 5.69040
+[33mIP:142 [0m[32m[0423 01:41:49 @model.py:267][0m Change temperature from 0.33608 to 0.32129
+[33mIP:142 [0m[32m[0423 01:41:49 @model.py:331][0m Start to train w for epoch 70
+[33mIP:142 [0m[32m[0423 01:42:47 @model.py:297][0m Epoch[70] Batch[100] Speed: 239.003839 samples/sec loss: 3.32836 acc: 0.63514 ce: 1.02163 lat: 2.90006 ener: 5.67080
+[33mIP:142 [0m[32m[0423 01:43:40 @model.py:323][0m Start to train theta for epoch 71
+[33mIP:142 [0m[32m[0423 01:44:34 @model.py:297][0m Epoch[71] Batch[100] Speed: 239.185243 samples/sec loss: 3.32584 acc: 0.63520 ce: 1.02158 lat: 2.89863 ener: 5.65143
+[33mIP:142 [0m[32m[0423 01:45:24 @model.py:267][0m Change temperature from 0.32129 to 0.30716
+[33mIP:142 [0m[32m[0423 01:45:24 @model.py:331][0m Start to train w for epoch 71
+[33mIP:142 [0m[32m[0423 01:46:21 @model.py:297][0m Epoch[71] Batch[100] Speed: 238.041962 samples/sec loss: 3.32311 acc: 0.63537 ce: 1.02127 lat: 2.89734 ener: 5.63224
+[33mIP:142 [0m[32m[0423 01:47:15 @model.py:323][0m Start to train theta for epoch 72
+[33mIP:142 [0m[32m[0423 01:48:09 @model.py:297][0m Epoch[72] Batch[100] Speed: 238.911014 samples/sec loss: 3.32003 acc: 0.63568 ce: 1.02058 lat: 2.89608 ener: 5.61333
+[33mIP:142 [0m[32m[0423 01:48:59 @model.py:267][0m Change temperature from 0.30716 to 0.29364
+[33mIP:142 [0m[32m[0423 01:48:59 @model.py:331][0m Start to train w for epoch 72
+[33mIP:142 [0m[32m[0423 01:49:56 @model.py:297][0m Epoch[72] Batch[100] Speed: 237.787119 samples/sec loss: 3.31694 acc: 0.63603 ce: 1.01982 lat: 2.89482 ener: 5.59481
+[33mIP:142 [0m[32m[0423 01:50:50 @model.py:323][0m Start to train theta for epoch 73
+[33mIP:142 [0m[32m[0423 01:51:44 @model.py:297][0m Epoch[73] Batch[100] Speed: 238.570154 samples/sec loss: 3.31394 acc: 0.63634 ce: 1.01913 lat: 2.89357 ener: 5.57656
+[33mIP:142 [0m[32m[0423 01:52:34 @model.py:267][0m Change temperature from 0.29364 to 0.28072
+[33mIP:142 [0m[32m[0423 01:52:34 @model.py:331][0m Start to train w for epoch 73
+[33mIP:142 [0m[32m[0423 01:53:31 @model.py:297][0m Epoch[73] Batch[100] Speed: 238.500333 samples/sec loss: 3.31088 acc: 0.63667 ce: 1.01834 lat: 2.89233 ener: 5.55856
+[33mIP:142 [0m[32m[0423 01:54:24 @model.py:323][0m Start to train theta for epoch 74
+[33mIP:142 [0m[32m[0423 01:55:18 @model.py:297][0m Epoch[74] Batch[100] Speed: 239.466982 samples/sec loss: 3.30766 acc: 0.63707 ce: 1.01735 lat: 2.89111 ener: 5.54086
+[33mIP:142 [0m[32m[0423 01:56:08 @model.py:267][0m Change temperature from 0.28072 to 0.26837
+[33mIP:142 [0m[32m[0423 01:56:08 @model.py:331][0m Start to train w for epoch 74
+[33mIP:142 [0m[32m[0423 01:57:05 @model.py:297][0m Epoch[74] Batch[100] Speed: 239.056532 samples/sec loss: 3.30445 acc: 0.63749 ce: 1.01635 lat: 2.88990 ener: 5.52341
+[33mIP:142 [0m[32m[0423 01:57:58 @model.py:323][0m Start to train theta for epoch 75
+[33mIP:142 [0m[32m[0423 01:58:52 @model.py:297][0m Epoch[75] Batch[100] Speed: 239.447006 samples/sec loss: 3.30119 acc: 0.63793 ce: 1.01526 lat: 2.88872 ener: 5.50620
+[33mIP:142 [0m[32m[0423 01:59:42 @model.py:267][0m Change temperature from 0.26837 to 0.25656
+[33mIP:142 [0m[32m[0423 01:59:42 @model.py:331][0m Start to train w for epoch 75
+[33mIP:142 [0m[32m[0423 02:00:40 @model.py:297][0m Epoch[75] Batch[100] Speed: 237.354235 samples/sec loss: 3.29798 acc: 0.63836 ce: 1.01419 lat: 2.88757 ener: 5.48924
+[33mIP:142 [0m[32m[0423 02:01:33 @model.py:323][0m Start to train theta for epoch 76
+[33mIP:142 [0m[32m[0423 02:02:27 @model.py:297][0m Epoch[76] Batch[100] Speed: 238.802996 samples/sec loss: 3.29503 acc: 0.63875 ce: 1.01335 lat: 2.88644 ener: 5.47252
+[33mIP:142 [0m[32m[0423 02:03:17 @model.py:267][0m Change temperature from 0.25656 to 0.24527
+[33mIP:142 [0m[32m[0423 02:03:17 @model.py:331][0m Start to train w for epoch 76
+[33mIP:142 [0m[32m[0423 02:04:15 @model.py:297][0m Epoch[76] Batch[100] Speed: 237.318392 samples/sec loss: 3.29197 acc: 0.63918 ce: 1.01238 lat: 2.88527 ener: 5.45604
+[33mIP:142 [0m[32m[0423 02:05:09 @model.py:323][0m Start to train theta for epoch 77
+[33mIP:142 [0m[32m[0423 02:06:02 @model.py:297][0m Epoch[77] Batch[100] Speed: 238.067170 samples/sec loss: 3.28885 acc: 0.63961 ce: 1.01132 lat: 2.88413 ener: 5.43980
+[33mIP:142 [0m[32m[0423 02:06:52 @model.py:267][0m Change temperature from 0.24527 to 0.23448
+[33mIP:142 [0m[32m[0423 02:06:52 @model.py:331][0m Start to train w for epoch 77
+[33mIP:142 [0m[32m[0423 02:07:50 @model.py:297][0m Epoch[77] Batch[100] Speed: 238.407966 samples/sec loss: 3.28570 acc: 0.64008 ce: 1.01019 lat: 2.88304 ener: 5.42378
+[33mIP:142 [0m[32m[0423 02:08:43 @model.py:323][0m Start to train theta for epoch 78
+[33mIP:142 [0m[32m[0423 02:09:37 @model.py:297][0m Epoch[78] Batch[100] Speed: 239.514981 samples/sec loss: 3.28243 acc: 0.64057 ce: 1.00891 lat: 2.88195 ener: 5.40796
+[33mIP:142 [0m[32m[0423 02:10:27 @model.py:267][0m Change temperature from 0.23448 to 0.22416
+[33mIP:142 [0m[32m[0423 02:10:27 @model.py:331][0m Start to train w for epoch 78
+[33mIP:142 [0m[32m[0423 02:11:24 @model.py:297][0m Epoch[78] Batch[100] Speed: 238.292929 samples/sec loss: 3.27921 acc: 0.64107 ce: 1.00766 lat: 2.88087 ener: 5.39238
+[33mIP:142 [0m[32m[0423 02:12:17 @model.py:323][0m Start to train theta for epoch 79
+[33mIP:142 [0m[32m[0423 02:13:11 @model.py:297][0m Epoch[79] Batch[100] Speed: 239.939991 samples/sec loss: 3.27591 acc: 0.64160 ce: 1.00631 lat: 2.87981 ener: 5.37702
+[33mIP:142 [0m[32m[0423 02:14:01 @model.py:267][0m Change temperature from 0.22416 to 0.21430
+[33mIP:142 [0m[32m[0423 02:14:01 @model.py:331][0m Start to train w for epoch 79
+[33mIP:142 [0m[32m[0423 02:14:58 @model.py:297][0m Epoch[79] Batch[100] Speed: 237.728303 samples/sec loss: 3.27257 acc: 0.64215 ce: 1.00488 lat: 2.87880 ener: 5.36177
+[33mIP:142 [0m[32m[0423 02:15:52 @model.py:323][0m Start to train theta for epoch 80
+[33mIP:142 [0m[32m[0423 02:16:45 @model.py:297][0m Epoch[80] Batch[100] Speed: 239.085612 samples/sec loss: 3.26931 acc: 0.64268 ce: 1.00351 lat: 2.87781 ener: 5.34676
+[33mIP:142 [0m[32m[0423 02:17:35 @model.py:267][0m Change temperature from 0.21430 to 0.20487
+[33mIP:142 [0m[32m[0423 02:17:35 @model.py:331][0m Start to train w for epoch 80
+[33mIP:142 [0m[32m[0423 02:18:33 @model.py:297][0m Epoch[80] Batch[100] Speed: 237.534864 samples/sec loss: 3.26614 acc: 0.64319 ce: 1.00220 lat: 2.87683 ener: 5.33192
+[33mIP:142 [0m[32m[0423 02:19:27 @model.py:323][0m Start to train theta for epoch 81
+[33mIP:142 [0m[32m[0423 02:20:21 @model.py:297][0m Epoch[81] Batch[100] Speed: 238.515684 samples/sec loss: 3.26270 acc: 0.64380 ce: 1.00060 lat: 2.87587 ener: 5.31729
+[33mIP:142 [0m[32m[0423 02:21:10 @model.py:267][0m Change temperature from 0.20487 to 0.19586
+[33mIP:142 [0m[32m[0423 02:21:10 @model.py:331][0m Start to train w for epoch 81
+[33mIP:142 [0m[32m[0423 02:22:08 @model.py:297][0m Epoch[81] Batch[100] Speed: 238.977907 samples/sec loss: 3.25929 acc: 0.64440 ce: 0.99901 lat: 2.87492 ener: 5.30280
+[33mIP:142 [0m[32m[0423 02:23:01 @model.py:323][0m Start to train theta for epoch 82
+[33mIP:142 [0m[32m[0423 02:23:54 @model.py:297][0m Epoch[82] Batch[100] Speed: 240.007834 samples/sec loss: 3.25597 acc: 0.64498 ce: 0.99748 lat: 2.87399 ener: 5.28850
+[33mIP:142 [0m[32m[0423 02:24:44 @model.py:267][0m Change temperature from 0.19586 to 0.18724
+[33mIP:142 [0m[32m[0423 02:24:44 @model.py:331][0m Start to train w for epoch 82
+[33mIP:142 [0m[32m[0423 02:25:42 @model.py:297][0m Epoch[82] Batch[100] Speed: 238.689964 samples/sec loss: 3.25265 acc: 0.64555 ce: 0.99594 lat: 2.87307 ener: 5.27437
+[33mIP:142 [0m[32m[0423 02:26:35 @model.py:323][0m Start to train theta for epoch 83
+[33mIP:142 [0m[32m[0423 02:27:28 @model.py:297][0m Epoch[83] Batch[100] Speed: 239.612076 samples/sec loss: 3.24925 acc: 0.64618 ce: 0.99429 lat: 2.87217 ener: 5.26043
+[33mIP:142 [0m[32m[0423 02:28:19 @model.py:267][0m Change temperature from 0.18724 to 0.17900
+[33mIP:142 [0m[32m[0423 02:28:19 @model.py:331][0m Start to train w for epoch 83
+[33mIP:142 [0m[32m[0423 02:29:16 @model.py:297][0m Epoch[83] Batch[100] Speed: 237.171715 samples/sec loss: 3.24588 acc: 0.64680 ce: 0.99264 lat: 2.87127 ener: 5.24665
+[33mIP:142 [0m[32m[0423 02:30:10 @model.py:323][0m Start to train theta for epoch 84
+[33mIP:142 [0m[32m[0423 02:31:04 @model.py:297][0m Epoch[84] Batch[100] Speed: 238.908356 samples/sec loss: 3.24241 acc: 0.64747 ce: 0.99088 lat: 2.87039 ener: 5.23304
+[33mIP:142 [0m[32m[0423 02:31:53 @model.py:267][0m Change temperature from 0.17900 to 0.17112
+[33mIP:142 [0m[32m[0423 02:31:53 @model.py:331][0m Start to train w for epoch 84
+[33mIP:142 [0m[32m[0423 02:32:51 @model.py:297][0m Epoch[84] Batch[100] Speed: 238.203333 samples/sec loss: 3.23896 acc: 0.64813 ce: 0.98912 lat: 2.86953 ener: 5.21964
+[33mIP:142 [0m[32m[0423 02:33:45 @model.py:323][0m Start to train theta for epoch 85
+[33mIP:142 [0m[32m[0423 02:34:38 @model.py:297][0m Epoch[85] Batch[100] Speed: 238.730476 samples/sec loss: 3.23554 acc: 0.64880 ce: 0.98736 lat: 2.86867 ener: 5.20640
+[33mIP:142 [0m[32m[0423 02:35:28 @model.py:267][0m Change temperature from 0.17112 to 0.16359
+[33mIP:142 [0m[32m[0423 02:35:28 @model.py:331][0m Start to train w for epoch 85
+[33mIP:142 [0m[32m[0423 02:36:26 @model.py:297][0m Epoch[85] Batch[100] Speed: 238.457082 samples/sec loss: 3.23214 acc: 0.64945 ce: 0.98560 lat: 2.86783 ener: 5.19329
+[33mIP:142 [0m[32m[0423 02:37:19 @model.py:323][0m Start to train theta for epoch 86
+[33mIP:142 [0m[32m[0423 02:38:12 @model.py:297][0m Epoch[86] Batch[100] Speed: 239.600030 samples/sec loss: 3.22877 acc: 0.65010 ce: 0.98386 lat: 2.86700 ener: 5.18036
+[33mIP:142 [0m[32m[0423 02:39:02 @model.py:267][0m Change temperature from 0.16359 to 0.15640
+[33mIP:142 [0m[32m[0423 02:39:02 @model.py:331][0m Start to train w for epoch 86
+[33mIP:142 [0m[32m[0423 02:40:00 @model.py:297][0m Epoch[86] Batch[100] Speed: 239.026036 samples/sec loss: 3.22539 acc: 0.65076 ce: 0.98207 lat: 2.86618 ener: 5.16761
+[33mIP:142 [0m[32m[0423 02:40:53 @model.py:323][0m Start to train theta for epoch 87
+[33mIP:142 [0m[32m[0423 02:41:47 @model.py:297][0m Epoch[87] Batch[100] Speed: 239.131558 samples/sec loss: 3.22220 acc: 0.65136 ce: 0.98046 lat: 2.86537 ener: 5.15500
+[33mIP:142 [0m[32m[0423 02:42:37 @model.py:267][0m Change temperature from 0.15640 to 0.14952
+[33mIP:142 [0m[32m[0423 02:42:37 @model.py:331][0m Start to train w for epoch 87
+[33mIP:142 [0m[32m[0423 02:43:34 @model.py:297][0m Epoch[87] Batch[100] Speed: 238.697641 samples/sec loss: 3.21901 acc: 0.65196 ce: 0.97883 lat: 2.86457 ener: 5.14253
+[33mIP:142 [0m[32m[0423 02:44:27 @model.py:323][0m Start to train theta for epoch 88
+[33mIP:142 [0m[32m[0423 02:45:21 @model.py:297][0m Epoch[88] Batch[100] Speed: 239.697069 samples/sec loss: 3.21556 acc: 0.65264 ce: 0.97693 lat: 2.86378 ener: 5.13023
+[33mIP:142 [0m[32m[0423 02:46:10 @model.py:267][0m Change temperature from 0.14952 to 0.14294
+[33mIP:142 [0m[32m[0423 02:46:10 @model.py:331][0m Start to train w for epoch 88
+[33mIP:142 [0m[32m[0423 02:47:08 @model.py:297][0m Epoch[88] Batch[100] Speed: 238.972820 samples/sec loss: 3.21215 acc: 0.65333 ce: 0.97503 lat: 2.86300 ener: 5.11807
+[33mIP:142 [0m[32m[0423 02:48:01 @model.py:323][0m Start to train theta for epoch 89
+[33mIP:142 [0m[32m[0423 02:48:55 @model.py:297][0m Epoch[89] Batch[100] Speed: 239.405156 samples/sec loss: 3.20873 acc: 0.65403 ce: 0.97312 lat: 2.86223 ener: 5.10606
+[33mIP:142 [0m[32m[0423 02:49:45 @model.py:267][0m Change temperature from 0.14294 to 0.13665
+[33mIP:142 [0m[32m[0423 02:49:45 @model.py:331][0m Start to train w for epoch 89
+[33mIP:142 [0m[32m[0423 02:50:42 @model.py:297][0m Epoch[89] Batch[100] Speed: 238.355176 samples/sec loss: 3.20528 acc: 0.65474 ce: 0.97115 lat: 2.86147 ener: 5.09420
+[33mIP:142 [0m[32m[0423 02:51:35 @model.py:323][0m Start to train theta for epoch 90
+[33mIP:142 [0m[32m[0423 02:52:29 @model.py:297][0m Epoch[90] Batch[100] Speed: 239.930412 samples/sec loss: 3.20196 acc: 0.65541 ce: 0.96931 lat: 2.86071 ener: 5.08243
+[33mIP:142 [0m[32m[0423 02:53:19 @model.py:267][0m Change temperature from 0.13665 to 0.13063
+[33mIP:142 [0m[32m[0423 02:53:19 @model.py:331][0m Start to train w for epoch 90
+[33mIP:142 [0m[32m[0423 02:54:16 @model.py:297][0m Epoch[90] Batch[100] Speed: 237.826347 samples/sec loss: 3.19861 acc: 0.65611 ce: 0.96742 lat: 2.85996 ener: 5.07081
+[33mIP:142 [0m[32m[0423 02:55:10 @model.py:323][0m Start to train theta for epoch 91
+[33mIP:142 [0m[32m[0423 02:56:04 @model.py:297][0m Epoch[91] Batch[100] Speed: 238.506655 samples/sec loss: 3.19522 acc: 0.65682 ce: 0.96546 lat: 2.85923 ener: 5.05935
+[33mIP:142 [0m[32m[0423 02:56:54 @model.py:267][0m Change temperature from 0.13063 to 0.12489
+[33mIP:142 [0m[32m[0423 02:56:54 @model.py:331][0m Start to train w for epoch 91
+[33mIP:142 [0m[32m[0423 02:57:51 @model.py:297][0m Epoch[91] Batch[100] Speed: 238.544958 samples/sec loss: 3.19184 acc: 0.65754 ce: 0.96350 lat: 2.85850 ener: 5.04801
+[33mIP:142 [0m[32m[0423 02:58:44 @model.py:323][0m Start to train theta for epoch 92
+[33mIP:142 [0m[32m[0423 02:59:38 @model.py:297][0m Epoch[92] Batch[100] Speed: 239.598000 samples/sec loss: 3.18845 acc: 0.65825 ce: 0.96152 lat: 2.85778 ener: 5.03681
+[33mIP:142 [0m[32m[0423 03:00:28 @model.py:267][0m Change temperature from 0.12489 to 0.11939
+[33mIP:142 [0m[32m[0423 03:00:28 @model.py:331][0m Start to train w for epoch 92
+[33mIP:142 [0m[32m[0423 03:01:26 @model.py:297][0m Epoch[92] Batch[100] Speed: 237.832435 samples/sec loss: 3.18506 acc: 0.65898 ce: 0.95952 lat: 2.85707 ener: 5.02572
+[33mIP:142 [0m[32m[0423 03:02:19 @model.py:323][0m Start to train theta for epoch 93
+[33mIP:142 [0m[32m[0423 03:03:13 @model.py:297][0m Epoch[93] Batch[100] Speed: 238.818848 samples/sec loss: 3.18168 acc: 0.65971 ce: 0.95751 lat: 2.85637 ener: 5.01477
+[33mIP:142 [0m[32m[0423 03:04:03 @model.py:267][0m Change temperature from 0.11939 to 0.11414
+[33mIP:142 [0m[32m[0423 03:04:03 @model.py:331][0m Start to train w for epoch 93
+[33mIP:142 [0m[32m[0423 03:05:01 @model.py:297][0m Epoch[93] Batch[100] Speed: 237.096032 samples/sec loss: 3.17832 acc: 0.66044 ce: 0.95551 lat: 2.85568 ener: 5.00392
+[33mIP:142 [0m[32m[0423 03:05:54 @model.py:323][0m Start to train theta for epoch 94
+[33mIP:142 [0m[32m[0423 03:06:48 @model.py:297][0m Epoch[94] Batch[100] Speed: 238.997629 samples/sec loss: 3.17508 acc: 0.66113 ce: 0.95361 lat: 2.85499 ener: 4.99321
+[33mIP:142 [0m[32m[0423 03:07:38 @model.py:267][0m Change temperature from 0.11414 to 0.10912
+[33mIP:142 [0m[32m[0423 03:07:38 @model.py:331][0m Start to train w for epoch 94
+[33mIP:142 [0m[32m[0423 03:08:36 @model.py:297][0m Epoch[94] Batch[100] Speed: 237.806468 samples/sec loss: 3.17178 acc: 0.66185 ce: 0.95164 lat: 2.85431 ener: 4.98262
+[33mIP:142 [0m[32m[0423 03:09:29 @model.py:323][0m Start to train theta for epoch 95
+[33mIP:142 [0m[32m[0423 03:10:23 @model.py:297][0m Epoch[95] Batch[100] Speed: 238.501755 samples/sec loss: 3.16845 acc: 0.66256 ce: 0.94963 lat: 2.85364 ener: 4.97210
+[33mIP:142 [0m[32m[0423 03:11:13 @model.py:267][0m Change temperature from 0.10912 to 0.10432
+[33mIP:142 [0m[32m[0423 03:11:13 @model.py:331][0m Start to train w for epoch 95
+[33mIP:142 [0m[32m[0423 03:12:10 @model.py:297][0m Epoch[95] Batch[100] Speed: 238.598918 samples/sec loss: 3.16511 acc: 0.66330 ce: 0.94759 lat: 2.85297 ener: 4.96173
+[33mIP:142 [0m[32m[0423 03:13:03 @model.py:323][0m Start to train theta for epoch 96
+[33mIP:142 [0m[32m[0423 03:13:57 @model.py:297][0m Epoch[96] Batch[100] Speed: 240.086940 samples/sec loss: 3.16178 acc: 0.66404 ce: 0.94553 lat: 2.85232 ener: 4.95152
+[33mIP:142 [0m[32m[0423 03:14:47 @model.py:267][0m Change temperature from 0.10432 to 0.09973
+[33mIP:142 [0m[32m[0423 03:14:47 @model.py:331][0m Start to train w for epoch 96
+[33mIP:142 [0m[32m[0423 03:15:44 @model.py:297][0m Epoch[96] Batch[100] Speed: 238.870690 samples/sec loss: 3.15845 acc: 0.66478 ce: 0.94347 lat: 2.85167 ener: 4.94138
+[33mIP:142 [0m[32m[0423 03:16:37 @model.py:323][0m Start to train theta for epoch 97
+[33mIP:142 [0m[32m[0423 03:17:31 @model.py:297][0m Epoch[97] Batch[100] Speed: 239.447104 samples/sec loss: 3.15516 acc: 0.66550 ce: 0.94145 lat: 2.85102 ener: 4.93134
+[33mIP:142 [0m[32m[0423 03:18:21 @model.py:267][0m Change temperature from 0.09973 to 0.09534
+[33mIP:142 [0m[32m[0423 03:18:21 @model.py:331][0m Start to train w for epoch 97
+[33mIP:142 [0m[32m[0423 03:19:18 @model.py:297][0m Epoch[97] Batch[100] Speed: 238.424175 samples/sec loss: 3.15189 acc: 0.66623 ce: 0.93942 lat: 2.85039 ener: 4.92142
+[33mIP:142 [0m[32m[0423 03:20:11 @model.py:323][0m Start to train theta for epoch 98
+[33mIP:142 [0m[32m[0423 03:21:05 @model.py:297][0m Epoch[98] Batch[100] Speed: 239.914468 samples/sec loss: 3.14861 acc: 0.66696 ce: 0.93737 lat: 2.84976 ener: 4.91161
+[33mIP:142 [0m[32m[0423 03:21:55 @model.py:267][0m Change temperature from 0.09534 to 0.09114
+[33mIP:142 [0m[32m[0423 03:21:55 @model.py:331][0m Start to train w for epoch 98
+[33mIP:142 [0m[32m[0423 03:22:52 @model.py:297][0m Epoch[98] Batch[100] Speed: 238.297965 samples/sec loss: 3.14534 acc: 0.66771 ce: 0.93532 lat: 2.84914 ener: 4.90189
+[33mIP:142 [0m[32m[0423 03:23:46 @model.py:323][0m Start to train theta for epoch 99
+[33mIP:142 [0m[32m[0423 03:24:39 @model.py:297][0m Epoch[99] Batch[100] Speed: 239.321477 samples/sec loss: 3.14210 acc: 0.66844 ce: 0.93328 lat: 2.84852 ener: 4.89227
+[33mIP:142 [0m[32m[0423 03:25:29 @model.py:267][0m Change temperature from 0.09114 to 0.08713
+[33mIP:142 [0m[32m[0423 03:25:29 @model.py:331][0m Start to train w for epoch 99
+[33mIP:142 [0m[32m[0423 03:26:27 @model.py:297][0m Epoch[99] Batch[100] Speed: 238.909671 samples/sec loss: 3.13885 acc: 0.66918 ce: 0.93122 lat: 2.84791 ener: 4.88276
