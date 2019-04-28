@@ -190,8 +190,8 @@ class ChildNet(nn.Module):
 
 print('==> Building model..')
 
-def test(theta_f,times):
-	
+def test(net,theta_f,times):
+
     global best_acc
     net.eval()
     average_time = 0
@@ -222,5 +222,5 @@ for theta_f in os.listdir(args.theta_folder):
     theta_f =  args.theta_folder + '/' + theta_f
     print(theta_f)
     net = ChildNet(theta_f)
-    test(theta_f,10)
+    test(net,theta_f,10)
 
