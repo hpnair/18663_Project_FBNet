@@ -218,9 +218,10 @@ def test(net,theta_f,times):
         print('Average Inference time for Model: ', theta_f , 'is: ', average_time ,'s')
 
 
-for theta_f in os.listdir(args.theta_folder):
+for theta_f in sorted(os.listdir(args.theta_folder)):
     theta_f =  args.theta_folder + '/' + theta_f
-    print(theta_f)
-    net = ChildNet(theta_f)
-    test(net,theta_f,10)
+    if theta_f.endswith('.txt'):
+	    print(theta_f)
+	    net = ChildNet(theta_f)
+	    test(net,theta_f,1)
 
