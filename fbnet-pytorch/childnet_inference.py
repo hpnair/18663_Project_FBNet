@@ -189,44 +189,39 @@ class ChildNet(nn.Module):
 
 
 print('==> Building model..')
-net = ChildNet(args.theta_folder +'/random_model1_epoch_89.txt')
 
+def test(net,theta_f,times):
 
-net = net.to(device)
-if device == 'cuda':
-    net = torch.nn.DataParallel(net)
-    cudnn.benchmark = True
-
-
-criterion = nn.CrossEntropyLoss()
-optimizer = optim.SGD(net.parameters(), lr=0.01, momentum=0.9, weight_decay=4e-5)
-
-def test(epoch,model_num):
     global best_acc
     net.eval()
     average_time = 0
     with torch.no_grad():
 
         for batch_idx, (inputs, targets) in enumerate(testloader):
-            if (batch_idx < 10):
+            if (batch_idx < times):
 
                 inputs, targets = inputs.to(device), targets.to(device)
                 print('Starting inference: ')
-                time.sleep(5)
+                time.sleep(2)
                 start_time = time.time()
                 outputs = net(inputs)
                 end_time = time.time()
+                print('Write average current: ')
+                time.sleep(5)
                 average_time += (end_time-start_time)
                 print('Inference took: ', (end_time-start_time), 's')
                 time.sleep(5)
+            else:
+            	break
         average_time /= batch_idx
 
-        print('Average Inference time for Model: ', model_num , 'is: ', average_time ,'s')
+        print('Average Inference time for Model: ', theta_f , 'is: ', average_time ,'s')
 
 
-for i in range(0,4):
-    theta_f =  args.theta_folder + '/random_model'+str(i+1)+'_epoch_89.txt'
-    print(theta_f)
-    net = ChildNet(theta_f)
-    test(1,(i+1))
+for theta_f in sorted(os.listdir(args.theta_folder)):
+    theta_f =  args.theta_folder + '/' + theta_f
+    if theta_f.endswith('.txt'):
+	    print(theta_f)
+	    net = ChildNet(theta_f)
+	    test(net,theta_f,1)
 
