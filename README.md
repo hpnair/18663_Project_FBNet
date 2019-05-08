@@ -26,7 +26,7 @@
 
 The following implementation uses stride values that fit for CIFAR10. Feel free to change stride values for ImageNet as mentioned in the paper. We have used 
 
-##Relevant graphs
+## Relevant graphs
 - To check our implementation, we have trained 30 different models for Raspberry Pi with varying values of alpha, beta, gamma and delta
 - Each colour on the bubble chart represents a particular model and the size of the bubble represents accuracy.
 
