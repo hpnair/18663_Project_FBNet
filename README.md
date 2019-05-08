@@ -37,9 +37,9 @@ The following implementation uses stride values that fit for CIFAR10. Feel free 
 (https://github.com/hpnair/18663_Project_FBNet/blob/master/Gamma%2C%20Delta%2C%20Energy.png)
 ![latency-energy-accuracy](https://github.com/hpnair/18663_Project_FBNet/blob/master/Latency%2C%20Energy%20vs%20Accuracy%20(Model%2029).png)
 
-##Webpage for Training
+## Webpage for Training
 ![project-website](https://github.com/hpnair/18663_Project_FBNet/blob/master/project_hanna_website.png)
 
-##Example Tensorboard visualization
+## Example Tensorboard visualization
 ![Tensorboard-log-visualization](https://github.com/hpnair/18663_Project_FBNet/blob/master/tensorboard_output_1.png)
 
