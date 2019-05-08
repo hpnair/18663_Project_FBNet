@@ -1,2 +1,5 @@
-# 18663_Project_FBNet
-Class Project for 18663 - Implementation of FBNet (Hardware-Aware DNAS)
+# Neural architecture search using FbNets for Raspberry Pi
+# Hardware Aware Neural Network Architectures (HANNA)
+Class Project for CMU ECE 18663
+
+
