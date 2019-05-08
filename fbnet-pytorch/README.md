@@ -11,7 +11,7 @@
 - Use gamma and delta to tune energy related loss.
 - Tested over Raspberry Pi.
 - Energy profiling performed using Power Jive.
-- Results:
+- Results (on Raspberr Pi 3B):
 
 
 | Model  | Accuracy(%) | Latency(s) | Energy(J) |
