@@ -29,15 +29,17 @@ The following implementation uses stride values that fit for CIFAR10. Feel free 
 ##Relevant graphs
 - To check our implementation, we have trained 30 different models for Raspberry Pi with varying values of alpha, beta, gamma and delta
 - Each colour on the bubble chart represents a particular model and the size of the bubble represents accuracy.
+
 ![alpha-beta-latency-accuracy]
 (https://github.com/hpnair/18663_Project_FBNet/blob/master/Alpha%2C%20Beta%20vs%20Latency%20.png)
-![gamma-delta-energy-accuracy](https://github.com/hpnair/18663_Project_FBNet/blob/master/Gamma%2C%20Delta%2C%20Energy.png)
+
+![gamma-delta-energy-accuracy]
+(https://github.com/hpnair/18663_Project_FBNet/blob/master/Gamma%2C%20Delta%2C%20Energy.png)
 ![latency-energy-accuracy](https://github.com/hpnair/18663_Project_FBNet/blob/master/Latency%2C%20Energy%20vs%20Accuracy%20(Model%2029).png)
 
 ##Webpage for Training
-![project-website]
-(https://github.com/hpnair/18663_Project_FBNet/blob/master/project_hanna_website.png)
+![project-website](https://github.com/hpnair/18663_Project_FBNet/blob/master/project_hanna_website.png)
+
 ##Example Tensorboard visualization
-![Tensorboard-log-visualization]
-(https://github.com/hpnair/18663_Project_FBNet/blob/master/tensorboard_output_1.png)
+![Tensorboard-log-visualization](https://github.com/hpnair/18663_Project_FBNet/blob/master/tensorboard_output_1.png)
 
