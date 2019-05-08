@@ -10,6 +10,7 @@
 - Use alpha and beta to tune latency related loss.
 - Use gamma and delta to tune energy related loss.
 - Tested over Raspberry Pi.
+- Supports Tensorboard for accuracy, latency and energy visualization as the FbNet trains (logdir = arg provided to "-tb-logs")
 - Energy profiling performed using Power Jive.
 - Results (on Raspberr Pi 3B):
 
