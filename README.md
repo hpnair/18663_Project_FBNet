@@ -17,9 +17,9 @@
 
 | Model  | Accuracy(%) | Latency(s) | Energy(J) |
 | -----------  | ------| ---------| ---------|
-| MobileNetV2  | 75.2  | 7.1 | 18.24 |
-| CondenseNet  | 70.5  | 4.83 | 9.28 |
-| Ours(HANNA)  | 65.1 | 2.88 | 4.79 |
+| MobileNetV2  | 92.4  | 7.1 | 18.24 |
+| CondenseNet  | 91.1  | 4.83 | 9.28 |
+| Ours(HANNA)  | 87.7 | 2.88 | 4.79 |
 
 
 
