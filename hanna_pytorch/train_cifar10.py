@@ -9,9 +9,9 @@ import argparse
 import time
 import os
 
-from model import Trainer, FBNet
+from supernet import Trainer, FBNet
 from data import get_ds
-from blocks import get_blocks
+from candblks import get_blocks
 from utils import _logger, _set_file
 
 
